@@ -12,29 +12,16 @@ fs.readFile(htmlFilePath, 'utf8', (err, data) => {
 
     const cheerioInstance = cheerio.load(data);
 
-    const delayScripts = cheerioInstance(`script[is="delay-script"]`);
-    delayScripts.each((index, element) => {
+    const scripts = cheerioInstance(`script`);
+    scripts.each((index, element) => {
+
         const $el = cheerioInstance(element)
 
-        if($el.attr("phase") === 'interactive') return
-
-        $el.removeAttr('is')
-        $el.attr('src', $el.attr('url'))
-        $el.removeAttr('url')
-
-        // cheerioInstance(element).attr('defer', true);
-        console.log(cheerioInstance.html(element));
+        if($el.attr('is') !== "delay-script") {
+            console.log($el.html())
+            // $el.attr('defer', true)
+        }
     });
-
-    // const delayStylesheets = cheerioInstance(`link[is="delay-stylesheet"]`);
-
-    // delayStylesheets.each((index, element) => {
-    //     const $el = cheerioInstance(element)
-    //     $el.removeAttr('is')
-    //     $el.attr('rel', "stylesheet")
-    //
-    //     console.log(cheerioInstance.html(element));
-    // });
 
     return
 

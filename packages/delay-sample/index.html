@@ -1,6 +1,63 @@
 <!DOCTYPE html>
 <html class="no-js" lang="en">
 <head>
+    <script src="/cdn/shop/files/unpkg.com__ungap_custom-elements_1.2.0_min.js?v=14575434054564561414"
+            type="text/javascript" defer="true"></script>
+
+    <script defer="true" src="/cdn/shop/t/11/assets/delay-resource.js?v=77336820692469244571690273878"></script>
+    <script defer="true" src="/cdn/shop/files/first-interactive.min.js?v=632418561529047290"></script>
+    <script defer="true" src="/cdn/shop/files/jquery-3.6.0.min.js?v=832450138385343479"></script>
+
+    <script defer="true" src="/cdn/shop/t/11/assets/custom-elements.js?v=63441368354317747581666688395"></script>
+    <script defer="true" src="/cdn/shop/t/11/assets/loading-overlay.js?v=165644621593570602981666688387"></script>
+
+    <script is="delay-script" url="/cdn/shop/t/11/assets/global.js?v=31874650481387444961694160502"></script>
+    <script is="delay-script" url="/cdn/shop/t/11/assets/lazysizes.min.js?v=155223123402716617051647849393"></script>
+    <script is="delay-script" url="/cdn/shop/t/11/assets/splide.min.js?v=15323724465567850331688024725"></script>
+    <script is="delay-script" url="/cdn/shop/t/11/assets/layout-scripts.js?v=81574266922274938051691121534"></script>
+    <script is="delay-script" url="/cdn/shop/t/11/assets/helpers.js?v=27854430373278452491688024718"></script>
+
+    <style>
+        .splide:not(.is-initialized) {
+            display: none;
+        }
+
+        img {
+            height: auto
+        }
+    </style>
+    <!-- CSS ================================================== -->
+    <link is="delay-stylesheet" href="/cdn/shop/t/11/assets/timber.css?v=159571336311555510971684824513">
+    <link is="delay-stylesheet" href="/cdn/shop/t/11/assets/theme.css?v=164442859797059635561690273880">
+    <!-- CUSTOM CSS ================================================== -->
+    <link is="delay-stylesheet" href="/cdn/shop/t/11/assets/custom-theme.css?v=20891048303685117561686041529">
+    <link is="delay-stylesheet" href="/cdn/shop/t/11/assets/custom.css?v=177743090204326963411670913012">
+    <link is="delay-stylesheet" href="/cdn/shop/t/11/assets/custom-theme-3.css?v=133590341990656705491684824515">
+
+    <link rel="stylesheet" href="/cdn/shop/t/11/assets/base.css?v=48100596806574359551695713945">
+    <link rel="stylesheet" href="/cdn/shop/t/11/assets/legacy.css?v=177997722352149800751687251080">
+    <link rel="stylesheet" href="/cdn/shop/t/11/assets/typography.css?v=24496480099890758131687251081">
+    <link is="delay-stylesheet" href="/cdn/shop/t/11/assets/select2.min.css?v=3199361556163848531688024720">
+    <link rel="stylesheet" href="/cdn/shop/t/11/assets/vendors.css?v=106288142737246749421690864998">
+    <link rel="stylesheet" href="/cdn/shop/t/11/assets/global.css?v=121642044686454688461695713945">
+    <link is="delay-stylesheet" href="/cdn/shop/t/11/assets/fonts.css?v=58483565803451788371695806730">
+
+
+    <link rel="stylesheet" href="/cdn/shop/t/11/assets/new-heading.css?v=9457285026445821181687357026">
+
+    <link rel="stylesheet" href="/cdn/shop/t/11/assets/tailwind.css?v=148318756378458697681694159162">
+
+
+    <script defer="true">
+        const Shop = {
+            id: "56298733706",
+            assetUrl: "/cdn/shop/t/11/assets/a?100299".match(/^.*\//g)[0],
+            fileUrl: "/cdn/shop/files/a?100299".match(/^.*\//g)[0],
+            fileImgUrl: "/cdn/shopifycloud/shopify/assets/no-image-100-c91dd4bdb56513f2cbf4fc15436ca35e9d4ecd014546c8d421b1aece861dfecf_small.gif".match(/^.*\//g)[0],
+            locale: location.origin === "https://qc.emma-sleep.ca" ? "fr" : "en"
+        };
+    </script>
+
     <script defer="true">window.performance && window.performance.mark && window.performance.mark('shopify.content_for_header.start');</script>
     <meta name="google-site-verification" content="8NrZlTq5Lc38Dcf3TXtYAYwsRtuJ4a7uquA03qTXb0s">
     <meta id="shopify-digital-wallet" name="shopify-digital-wallet" content="/56298733706/digital_wallets/dialog">
@@ -10,7 +67,7 @@
     <link rel="alternate" hreflang="x-default" href="https:/">
     <link rel="alternate" hreflang="en-CA" href="https:/">
     <link rel="alternate" hreflang="fr-CA" href="https:/fr">
-    <script defer="true">
+    <script is="delay-script" phase="interactive">
         (function () {
             var scripts = ["https://cdn.shopify.com/shopifycloud/checkout-web/assets/runtime.latest.en.b61b3f9dfdcc0a077f11.js", "https://cdn.shopify.com/shopifycloud/checkout-web/assets/809.latest.en.22b066f200008aec130a.js", "https://cdn.shopify.com/shopifycloud/checkout-web/assets/Information.latest.en.54dfe5d34985e1982b50.js", "https://cdn.shopify.com/shopifycloud/checkout-web/assets/23.latest.en.a7ee3a2bd3fc2ad170b2.js", "https://cdn.shopify.com/shopifycloud/checkout-web/assets/733.latest.en.22cb4eafe0499ff4281e.js", "https://cdn.shopify.com/shopifycloud/checkout-web/assets/39.latest.en.99827a586f76e932dc2d.js", "https://cdn.shopify.com/shopifycloud/checkout-web/assets/app.latest.en.f936660d1941d75ef257.js"];
             var styles = ["https://cdn.shopify.com/shopifycloud/checkout-web/assets/23.latest.en.3cbccf84d73cde1fb510.css", "https://cdn.shopify.com/shopifycloud/checkout-web/assets/app.latest.en.9d6b9f970cd086c012b2.css", "https://cdn.shopify.com/shopifycloud/checkout-web/assets/739.latest.en.3ad1658c0d5df64841ff.css"];
@@ -148,7 +205,7 @@
             "payment-terms": ["modules/client.payment-terms_8c0535c9.en.esm.js", "modules/chunk.common_b40c70c3.esm.js"]
         };
     </script>
-    <script defer="true">(function () {
+    <script is="delay-script" phase="interactive">(function () {
         function asyncLoad() {
             var urls = ["https:\/\/cdn.weglot.com\/weglot_script_tag.js?shop=emma-sleep-ca.myshopify.com", "https:\/\/cdn.avmws.com\/1021029\/?shop=emma-sleep-ca.myshopify.com", "\/\/cdn.shopify.com\/proxy\/971447fa0ca00471c4a74bf546f8fb248d71816fc5fd20c73369ed0354fa0437\/bingshoppingtool-t2app-prod.trafficmanager.net\/uet\/tracking_script?shop=emma-sleep-ca.myshopify.com\u0026sp-cache-control=cHVibGljLCBtYXgtYWdlPTkwMA", "\/\/staticw2.yotpo.com\/hEc3IC0lCXuQ15phwUS54IFWUkW2L7LAcNLTHkt6\/widget.js?shop=emma-sleep-ca.myshopify.com", "https:\/\/cdn-scripts.signifyd.com\/shopify\/script-tag.js?shop=emma-sleep-ca.myshopify.com", "https:\/\/cdn.attn.tv\/emmasleep\/dtag.js?shop=emma-sleep-ca.myshopify.com", "https:\/\/www.dwin1.com\/41984.js?shop=emma-sleep-ca.myshopify.com", "https:\/\/static.shareasale.com\/json\/shopify\/deduplication.js?shop=emma-sleep-ca.myshopify.com", "https:\/\/cdn1.judge.me\/assets\/installed.js?shop=emma-sleep-ca.myshopify.com", "\/\/productreviews.shopifycdn.com\/embed\/loader.js?shop=emma-sleep-ca.myshopify.com", "https:\/\/my.parcelpanel.com\/assets\/admin\/custom\/js\/checkout.js?v=1.0.1\u0026shop=emma-sleep-ca.myshopify.com"];
             for (var i = 0; i < urls.length; i++) {
@@ -195,15 +252,14 @@
         })
     }(document);</script>
     <script integrity="sha256-h4dvokWvGcvRSqiG7VnGqoonxF0k3NeoHPLSMjUGIz4="
-            data-source-attribution="shopify.loadfeatures" defer="true"
-            src="/cdn/shopifycloud/shopify/assets/storefront/load_feature-87876fa245af19cbd14aa886ed59c6aa8a27c45d24dcd7a81cf2d2323506233e.js"
-            crossorigin="anonymous"></script>
-    <script crossorigin="anonymous" defer="true"
-            src="/cdn/shopifycloud/shopify/assets/shopify_pay/storefront-a2d444786d996da5634fbbaeeffe6104ee672440dfa6cdcaebfb27dceaaf9c0f.js?v=20220906"></script>
+            data-source-attribution="shopify.loadfeatures" is="delay-script" phase="interactive" crossorigin="anonymous"
+            url="/cdn/shopifycloud/shopify/assets/storefront/load_feature-87876fa245af19cbd14aa886ed59c6aa8a27c45d24dcd7a81cf2d2323506233e.js"></script>
+    <script crossorigin="anonymous" is="delay-script" phase="interactive"
+            url="/cdn/shopifycloud/shopify/assets/shopify_pay/storefront-a2d444786d996da5634fbbaeeffe6104ee672440dfa6cdcaebfb27dceaaf9c0f.js?v=20220906"></script>
     <script integrity="sha256-HAs5a9TQVLlKuuHrahvWuke+s1UlxXohfHeoYv8G2D8="
-            data-source-attribution="shopify.dynamic-checkout" defer="true"
-            src="/cdn/shopifycloud/shopify/assets/storefront/features-1c0b396bd4d054b94abae1eb6a1bd6ba47beb35525c57a217c77a862ff06d83f.js"
-            crossorigin="anonymous"></script>
+            data-source-attribution="shopify.dynamic-checkout" is="delay-script" phase="interactive"
+            crossorigin="anonymous"
+            url="/cdn/shopifycloud/shopify/assets/storefront/features-1c0b396bd4d054b94abae1eb6a1bd6ba47beb35525c57a217c77a862ff06d83f.js"></script>
     <!-- placeholder b756d449a7a8169e -->
     <script defer="true">window.performance && window.performance.mark && window.performance.mark('shopify.content_for_header.end');</script>
 
@@ -234,41 +290,6 @@
             "preview_bar_injector",
         ];
     </script>
-
-    <script src="/cdn/shop/files/unpkg.com__ungap_custom-elements_1.2.0_min.js?v=14575434054564561414"
-            type="text/javascript" defer="true"></script>
-
-    <script defer="true" src="/cdn/shop/t/11/assets/delay-resource.js?v=77336820692469244571690273878"
-            type="text/javascript"
-    ></script>
-    <script is="delay-script" url="/cdn/shop/files/first-interactive.min.js?v=632418561529047290"></script>
-
-    <script defer="true" src="/cdn/shop/files/jquery-3.6.0.min.js?v=832450138385343479"></script>
-    <script defer="true" src="/cdn/shop/files/preconnect.min.js?v=13923842066579538563"></script>
-    <script defer="true" src="/cdn/shop/t/11/assets/custom-elements.js?v=63441368354317747581666688395"></script>
-    <script defer="true" src="/cdn/shop/t/11/assets/loading-overlay.js?v=165644621593570602981666688387"></script>
-    <style>
-        .splide:not(.is-initialized) {
-            display: none;
-        }
-
-        img {
-            height: auto
-        }
-    </style>
-
-
-    <script defer="true">
-        const Shop = {
-            id: "56298733706",
-            assetUrl: "/cdn/shop/t/11/assets/a?100299".match(/^.*\//g)[0],
-            fileUrl: "/cdn/shop/files/a?100299".match(/^.*\//g)[0],
-            fileImgUrl: "/cdn/shopifycloud/shopify/assets/no-image-100-c91dd4bdb56513f2cbf4fc15436ca35e9d4ecd014546c8d421b1aece861dfecf_small.gif".match(/^.*\//g)[0],
-            locale: location.origin === "https://qc.emma-sleep.ca" ? "fr" : "en"
-        };
-    </script>
-
-
     <!-- Basic page needs ================================================== -->
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
@@ -318,28 +339,6 @@
     <!--International SEO: hreflang tags-->
 
 
-    <!-- CSS ================================================== -->
-    <link is="delay-stylesheet" href="/cdn/shop/t/11/assets/timber.css?v=159571336311555510971684824513">
-    <link is="delay-stylesheet" href="/cdn/shop/t/11/assets/theme.css?v=164442859797059635561690273880">
-    <!-- CUSTOM CSS ================================================== -->
-    <link is="delay-stylesheet" href="/cdn/shop/t/11/assets/custom-theme.css?v=20891048303685117561686041529">
-    <link is="delay-stylesheet" href="/cdn/shop/t/11/assets/custom.css?v=177743090204326963411670913012">
-    <link is="delay-stylesheet" href="/cdn/shop/t/11/assets/custom-theme-3.css?v=133590341990656705491684824515">
-
-    <link is="delay-stylesheet" href="/cdn/shop/t/11/assets/base.css?v=48100596806574359551695713945">
-    <link is="delay-stylesheet" href="/cdn/shop/t/11/assets/legacy.css?v=177997722352149800751687251080">
-    <link is="delay-stylesheet" href="/cdn/shop/t/11/assets/typography.css?v=24496480099890758131687251081">
-    <link is="delay-stylesheet" href="/cdn/shop/t/11/assets/select2.min.css?v=3199361556163848531688024720">
-    <link is="delay-stylesheet" href="/cdn/shop/t/11/assets/vendors.css?v=106288142737246749421690864998">
-    <link is="delay-stylesheet" href="/cdn/shop/t/11/assets/global.css?v=121642044686454688461695713945">
-    <link is="delay-stylesheet" href="/cdn/shop/t/11/assets/fonts.css?v=58483565803451788371695806730">
-
-
-    <link is="delay-stylesheet" href="/cdn/shop/t/11/assets/new-heading.css?v=9457285026445821181687357026">
-
-    <link is="delay-stylesheet" href="/cdn/shop/t/11/assets/tailwind.css?v=148318756378458697681694159162">
-
-
     <script defer="true">window.performance && window.performance.mark && window.performance.mark('shopify.content_for_header.start');</script>
     <meta name="google-site-verification" content="8NrZlTq5Lc38Dcf3TXtYAYwsRtuJ4a7uquA03qTXb0s">
     <meta id="shopify-digital-wallet" name="shopify-digital-wallet" content="/56298733706/digital_wallets/dialog">
@@ -487,24 +486,25 @@
             "payment-terms": ["modules/client.payment-terms_8c0535c9.en.esm.js", "modules/chunk.common_b40c70c3.esm.js"]
         };
     </script>
-    <script defer="true">(function () {
-        function asyncLoad() {
-            var urls = ["https:\/\/cdn.weglot.com\/weglot_script_tag.js?shop=emma-sleep-ca.myshopify.com", "https:\/\/cdn.avmws.com\/1021029\/?shop=emma-sleep-ca.myshopify.com", "\/\/cdn.shopify.com\/proxy\/971447fa0ca00471c4a74bf546f8fb248d71816fc5fd20c73369ed0354fa0437\/bingshoppingtool-t2app-prod.trafficmanager.net\/uet\/tracking_script?shop=emma-sleep-ca.myshopify.com\u0026sp-cache-control=cHVibGljLCBtYXgtYWdlPTkwMA", "\/\/staticw2.yotpo.com\/hEc3IC0lCXuQ15phwUS54IFWUkW2L7LAcNLTHkt6\/widget.js?shop=emma-sleep-ca.myshopify.com", "https:\/\/cdn-scripts.signifyd.com\/shopify\/script-tag.js?shop=emma-sleep-ca.myshopify.com", "https:\/\/cdn.attn.tv\/emmasleep\/dtag.js?shop=emma-sleep-ca.myshopify.com", "https:\/\/www.dwin1.com\/41984.js?shop=emma-sleep-ca.myshopify.com", "https:\/\/static.shareasale.com\/json\/shopify\/deduplication.js?shop=emma-sleep-ca.myshopify.com", "https:\/\/cdn1.judge.me\/assets\/installed.js?shop=emma-sleep-ca.myshopify.com", "\/\/productreviews.shopifycdn.com\/embed\/loader.js?shop=emma-sleep-ca.myshopify.com", "https:\/\/my.parcelpanel.com\/assets\/admin\/custom\/js\/checkout.js?v=1.0.1\u0026shop=emma-sleep-ca.myshopify.com"];
-            for (var i = 0; i < urls.length; i++) {
-                var s = document.createElement('script');
-                s.type = 'text/javascript';
-                s.async = true;
-                s.src = urls[i];
-                var x = document.getElementsByTagName('script')[0];
-                x.parentNode.insertBefore(s, x);
+    <script is="delay-script" phase="interactive">
+        (function () {
+            function asyncLoad() {
+                var urls = ["https:\/\/cdn.weglot.com\/weglot_script_tag.js?shop=emma-sleep-ca.myshopify.com", "https:\/\/cdn.avmws.com\/1021029\/?shop=emma-sleep-ca.myshopify.com", "\/\/cdn.shopify.com\/proxy\/971447fa0ca00471c4a74bf546f8fb248d71816fc5fd20c73369ed0354fa0437\/bingshoppingtool-t2app-prod.trafficmanager.net\/uet\/tracking_script?shop=emma-sleep-ca.myshopify.com\u0026sp-cache-control=cHVibGljLCBtYXgtYWdlPTkwMA", "\/\/staticw2.yotpo.com\/hEc3IC0lCXuQ15phwUS54IFWUkW2L7LAcNLTHkt6\/widget.js?shop=emma-sleep-ca.myshopify.com", "https:\/\/cdn-scripts.signifyd.com\/shopify\/script-tag.js?shop=emma-sleep-ca.myshopify.com", "https:\/\/cdn.attn.tv\/emmasleep\/dtag.js?shop=emma-sleep-ca.myshopify.com", "https:\/\/www.dwin1.com\/41984.js?shop=emma-sleep-ca.myshopify.com", "https:\/\/static.shareasale.com\/json\/shopify\/deduplication.js?shop=emma-sleep-ca.myshopify.com", "https:\/\/cdn1.judge.me\/assets\/installed.js?shop=emma-sleep-ca.myshopify.com", "\/\/productreviews.shopifycdn.com\/embed\/loader.js?shop=emma-sleep-ca.myshopify.com", "https:\/\/my.parcelpanel.com\/assets\/admin\/custom\/js\/checkout.js?v=1.0.1\u0026shop=emma-sleep-ca.myshopify.com"];
+                for (var i = 0; i < urls.length; i++) {
+                    var s = document.createElement('script');
+                    s.type = 'text/javascript';
+                    s.async = true;
+                    s.src = urls[i];
+                    var x = document.getElementsByTagName('script')[0];
+                    x.parentNode.insertBefore(s, x);
+                }
+            };
+            if (window.attachEvent) {
+                window.attachEvent('onload', asyncLoad);
+            } else {
+                window.addEventListener('load', asyncLoad, false);
             }
-        };
-        if (window.attachEvent) {
-            window.attachEvent('onload', asyncLoad);
-        } else {
-            window.addEventListener('load', asyncLoad, false);
-        }
-    })();</script>
+        })();</script>
     <script id="__st" defer="true">var __st = {
         "a": 56298733706,
         "offset": -14400,
@@ -564,7 +564,7 @@
 
 
     <!-- Start Weglot Script -->
-    <script is="delay-script" url="https://cdn.weglot.com/weglot.min.js"></script>
+    <script is="delay-script" url="https://cdn.weglot.com/weglot.min.js" phase="interactive"></script>
     <script id="has-script-tags" is="delay-script" phase="interactive">
         Weglot.initialize({api_key: 'wg_e352fa8c030a877a802a404aac1074d00'});
     </script>
@@ -573,7 +573,8 @@
     <!-- BEGIN app block: shopify://apps/klaviyo-email-marketing-sms/blocks/klaviyo-onsite-embed/2632fe16-c075-4321-a88b-50b567f42507 -->
 
 
-    <script src="https://static.klaviyo.com/onsite/js/klaviyo.js?company_id=TGESpr" defer="true"></script>
+    <script is="delay-script" phase="interactive"
+            url="https://static.klaviyo.com/onsite/js/klaviyo.js?company_id=TGESpr"></script>
     <script defer="true">!function () {
         if (!window.klaviyo) {
             window._klOnsite = window._klOnsite || [];
@@ -609,8 +610,8 @@
     <!-- BEGIN app block: shopify://apps/vitals-all-in-one-marketing/blocks/app-embed/aeb48102-2a5a-4f39-bdbd-d8d49f4e20b8 -->
     <script data-ver="16" id="vtlsAebData" defer="true">window.vtlsLiquidData = {};
     window.vtlsLiquidData.cacheKeys = [1642067320, 0, 0, 1668528602, 1644587031, 0, 0];</script>
-    <script src="https://appsolve.io/sf/v1/assets/js/main/emma-sleep-ca.myshopify.com/1695911603/bundle.js"
-            defer="true"></script>
+    <script is="delay-script" phase="interactive"
+            url="https://appsolve.io/sf/v1/assets/js/main/emma-sleep-ca.myshopify.com/1695911603/bundle.js"></script>
     <!-- END app app block -->
     <link href="https://monorail-edge.shopifysvc.com" rel="dns-prefetch">
     <script defer="true">(function () {
@@ -644,7 +645,7 @@
             window.addEventListener('pagehide', handle_abandonment_event);
         }
     }());</script>
-    <script id="web-pixels-manager-setup" defer="true">(function e(e, a, n, r, t, o, i) {
+    <script id="web-pixels-manager-setup" is="delay-script" phase="interactive">(function e(e, a, n, r, t, o, i) {
         var s = null !== e, l = function () {
             var e = "unknown", a = null, n = navigator.userAgent, r = n.match(/(Firefox|Chrome)\/(\d+)/i),
                 t = n.match(/(Edg)\/(\d+)/i), o = n.match(/(Version)\/(\d+)(.+)(Safari)\/(\d+)/i);
@@ -767,7 +768,7 @@
 
     };
     </script>
-    <script class="analytics" defer="true">(function () {
+    <script class="analytics" is="delay-script" phase="interactive">(function () {
         var customDocumentWrite = function (content) {
             var jquery = null;
 
@@ -970,7 +971,7 @@
         document.getElementsByTagName('head')[0].appendChild(eventsListenerScript);
 
     })();</script>
-    <script class="boomerang" defer="true">
+    <script class="boomerang" is="delay-script" phase="interactive">
         (function () {
             if (window.BOOMR && (window.BOOMR.version || window.BOOMR.snippetExecuted)) {
                 return;
@@ -1166,7 +1167,7 @@
             }
         </style>
 
-        <link is="delay-stylesheet" href="/cdn/shop/t/11/assets/announcement-bar.css?v=55787783967483198981689848813">
+        <link rel="stylesheet" href="/cdn/shop/t/11/assets/announcement-bar.css?v=55787783967483198981689848813">
 
 
         <div class="announcement-bar">
@@ -1204,12 +1205,10 @@
 
         <script is="delay-script" phase="interactive"
                 url="/cdn/shop/t/11/assets/announcement-bar.js?v=1762758780575705691689848814"></script>
-
-
     </div>
     <div id="shopify-section-sections--15913832546442__header"
          class="shopify-section shopify-section-group-header-group site-header-wrapper">
-        <link is="delay-stylesheet" href="/cdn/shop/t/11/assets/header.css?v=47871740537913818411690273878">
+        <link rel="stylesheet" href="/cdn/shop/t/11/assets/header.css?v=47871740537913818411690273878">
 
         <navigation-bar id="header">
 
@@ -1218,13 +1217,8 @@
                     <div class="header-container">
                         <div>
                             <a class="hidden lg:inline" href="/">
-
-
-                                <img data-src="https://cdn.shopify.com/s/files/1/0815/3907/2306/files/home-9-logo.png?v=1695476557&amp;width=100"
-                                     class="lazyload " width="100" data-sizes="auto" data-srcset=""
-                                     alt="Ellamart® Canada" loading="lazy" fetchpriority="auto">
-
-
+                                <img src="https://cdn.shopify.com/s/files/1/0815/3907/2306/files/home-9-logo.png?v=1695476557&amp;width=100"
+                                     width="100" alt="Ellamart® Canada" fetchpriority="high">
                             </a>
 
                             <button id="hamburger-navigation-button" class="lg:hidden">
@@ -1306,11 +1300,8 @@
 
                             <div class="lg:hidden">
                                 <a href="/">
-
-                                    <img alt="Ellamart® Canada" class="lazyload"
-                                         data-src="/cdn/shop/files/MicrosoftTeams-Logo_Emma_new_small.png?v=1683825563"
-                                         data-srcset="/cdn/shop/files/MicrosoftTeams-Logo_Emma_new_small.png?v=1683825563 1x, /cdn/shop/files/MicrosoftTeams-Logo_Emma_new_small@2x.png?v=1683825563 2x">
-
+                                    <img src="https://cdn.shopify.com/s/files/1/0815/3907/2306/files/home-9-logo.png?v=1695476557&amp;width=100"
+                                         width="100" alt="Ellamart® Canada" fetchpriority="high">
                                 </a>
                             </div>
                         </div>
@@ -2133,9 +2124,7 @@
 
 <main id="MainContent" role="main">
     <div id="shopify-section-template--15787492933770__hero-split" class="shopify-section">
-
-
-        <link href="/cdn/shop/t/11/assets/hero-split.css" rel="stylesheet" type="text/css" media="all">
+        <link rel="stylesheet" type="text/css" media="all" href="/cdn/shop/t/11/assets/hero-split.css">
 
         <div id="hero-split-section" class="page-boundary">
             <div class="hero-container">
@@ -2192,16 +2181,14 @@
 
 
                     <div class="wallpaper">
-                        <img alt="" width="2680" height="640" loading="eager" class="mx-auto lazyload"
-                             data-src="https://cdn.shopify.com/s/files/1/0815/3907/2306/files/demo16-slide1_2000x_cfb20f6b-5725-4d0c-8624-a5818704dc9c.png?v=1695739091&amp;width=2680"
-                             data-srcset="https://cdn.shopify.com/s/files/1/0815/3907/2306/files/demo16-slide1_2000x_cfb20f6b-5725-4d0c-8624-a5818704dc9c.png?v=1695739091&amp;width=352 352w, https://cdn.shopify.com/s/files/1/0815/3907/2306/files/demo16-slide1_2000x_cfb20f6b-5725-4d0c-8624-a5818704dc9c.png?v=1695739091&amp;width=832 832w, https://cdn.shopify.com/s/files/1/0815/3907/2306/files/demo16-slide1_2000x_cfb20f6b-5725-4d0c-8624-a5818704dc9c.png?v=1695739091&amp;width=1200 1200w, https://cdn.shopify.com/s/files/1/0815/3907/2306/files/demo16-slide1_2000x_cfb20f6b-5725-4d0c-8624-a5818704dc9c.png?v=1695739091&amp;width=1920 1920w, https://cdn.shopify.com/s/files/1/0815/3907/2306/files/demo16-slide1_2000x_cfb20f6b-5725-4d0c-8624-a5818704dc9c.png?v=1695739091&amp;width=2680 2680w">
+                        <img alt="" width="2680" height="640" loading="eager" class="mx-auto"
+                             src="https://cdn.shopify.com/s/files/1/0815/3907/2306/files/demo16-slide1_2000x_cfb20f6b-5725-4d0c-8624-a5818704dc9c.png?v=1695739091&amp;width=2680"
+                             srcset="https://cdn.shopify.com/s/files/1/0815/3907/2306/files/demo16-slide1_2000x_cfb20f6b-5725-4d0c-8624-a5818704dc9c.png?v=1695739091&amp;width=352 352w, https://cdn.shopify.com/s/files/1/0815/3907/2306/files/demo16-slide1_2000x_cfb20f6b-5725-4d0c-8624-a5818704dc9c.png?v=1695739091&amp;width=832 832w, https://cdn.shopify.com/s/files/1/0815/3907/2306/files/demo16-slide1_2000x_cfb20f6b-5725-4d0c-8624-a5818704dc9c.png?v=1695739091&amp;width=1200 1200w, https://cdn.shopify.com/s/files/1/0815/3907/2306/files/demo16-slide1_2000x_cfb20f6b-5725-4d0c-8624-a5818704dc9c.png?v=1695739091&amp;width=1920 1920w, https://cdn.shopify.com/s/files/1/0815/3907/2306/files/demo16-slide1_2000x_cfb20f6b-5725-4d0c-8624-a5818704dc9c.png?v=1695739091&amp;width=2680 2680w">
                     </div>
 
                 </section>
             </div>
         </div>
-
-
     </div>
     <div id="shopify-section-template--15787492933770__promotional-banner" class="shopify-section">
 
@@ -2283,7 +2270,7 @@
     </div>
     <div id="shopify-section-template--15787492933770__winning-awards" class="shopify-section">
 
-        <link is="delay-stylesheet" href="/cdn/shop/t/11/assets/award-carousel.css?v=129998449819912879961690273877">
+        <link rel="stylesheet" href="/cdn/shop/t/11/assets/award-carousel.css?v=129998449819912879961690273877">
 
         <section id="template--15787492933770__winning-awards" class="award-carousel section-container sm md:lg">
             <div class="section-chassis page-boundary">
@@ -2478,13 +2465,17 @@
                 </div>
             </div>
 
-            <script is="delay-script"
-                    url="/cdn/shop/t/11/assets/award-carousel.js?v=67373144125090953021689848815"></script>
+            <script is="delay-script" url="/cdn/shop/t/11/assets/award-carousel.js?v=67373144125090953021689848815"
+                    phase="interactive"></script>
         </section>
 
 
     </div>
     <div id="shopify-section-template--15787492933770__featured-collections" class="shopify-section">
+
+        <link rel="stylesheet" href="/cdn/shop/t/11/assets/featured-collections.css?v=129998449819912879961690273877">
+
+
         <section id="template--15787492933770__featured-collections" data-section-type="featured-collections-section"
                  class="section-container">
             <div class="section-chassis page-boundary">
@@ -2506,20 +2497,9 @@
 
 
                             <div class="collection-grid__item-overlay grid__image lazyload transition ease-in-out hover:scale-125"
-                                 style="background-image: url('https://cdn.accentuate.io/265063170186/1690184513583/new-mattresses.webp?v=1690184513584');"
-                                 data-bgset="
-
-
-
-
-
-
-
-
-  /cdn/shopifycloud/shopify/assets/no-image-2048-5e88c1b20e087fb7bbe9a3771824e743c244f437e4f8ba93bbf7b11b53f7824c.gif w h"
-                                 data-sizes="auto" data-parent-fit="cover">
-                            </div>
-
+                                 style="--bgsrc: url('https://cdn.accentuate.io/265063170186/1690184513583/new-mattresses.webp?v=1690184513584')"
+                                 data-bgset="/cdn/shopifycloud/shopify/assets/no-image-2048-5e88c1b20e087fb7bbe9a3771824e743c244f437e4f8ba93bbf7b11b53f7824c.gif w h"
+                                 data-sizes="auto" data-parent-fit="cover"></div>
 
                             <div class=" top-0 bg-[linear-gradient(180deg,_rgba(0,_0,_0,_0.75)_0%,_rgba(0,_0,_0,_0.00)_100%)]
 
@@ -2541,17 +2521,8 @@
 
 
                             <div class="collection-grid__item-overlay grid__image lazyload transition ease-in-out hover:scale-125"
-                                 style="background-image: url('https://cdn.accentuate.io/297062826122/1690184546401/Beds.jpg?v=1690184546401');"
-                                 data-bgset="
-
-
-
-
-
-
-
-
-  /cdn/shopifycloud/shopify/assets/no-image-2048-5e88c1b20e087fb7bbe9a3771824e743c244f437e4f8ba93bbf7b11b53f7824c.gif w h"
+                                 style="--bgsrc: url('https://cdn.accentuate.io/297062826122/1690184546401/Beds.jpg?v=1690184546401');"
+                                 data-bgset="/cdn/shopifycloud/shopify/assets/no-image-2048-5e88c1b20e087fb7bbe9a3771824e743c244f437e4f8ba93bbf7b11b53f7824c.gif w h"
                                  data-sizes="auto" data-parent-fit="cover">
                             </div>
 
@@ -2575,17 +2546,9 @@
 
 
                             <div class="collection-grid__item-overlay grid__image lazyload transition ease-in-out hover:scale-125"
-                                 style="background-image: url('https://cdn.accentuate.io/265063202954/1690184565451/pillows-bedding.webp?v=1690184565451');"
+                                 style="--bgsrc: url('https://cdn.accentuate.io/265063202954/1690184565451/pillows-bedding.webp?v=1690184565451');"
                                  data-bgset="
-
-
-
-
-
-
-
-
-  /cdn/shopifycloud/shopify/assets/no-image-2048-5e88c1b20e087fb7bbe9a3771824e743c244f437e4f8ba93bbf7b11b53f7824c.gif w h"
+ /cdn/shopifycloud/shopify/assets/no-image-2048-5e88c1b20e087fb7bbe9a3771824e743c244f437e4f8ba93bbf7b11b53f7824c.gif w h"
                                  data-sizes="auto" data-parent-fit="cover">
                             </div>
 
@@ -4578,7 +4541,7 @@
     </div>
     <div id="shopify-section-template--15787492933770__media-publication" class="shopify-section">
 
-        <link is="delay-stylesheet" href="/cdn/shop/t/11/assets/award-carousel.css?v=129998449819912879961690273877">
+        <link rel="stylesheet" href="/cdn/shop/t/11/assets/award-carousel.css?v=129998449819912879961690273877">
 
         <section id="template--15787492933770__media-publication" class="award-carousel section-container sm md:lg">
             <div class="section-chassis page-boundary">
@@ -4741,8 +4704,8 @@
                 </div>
             </div>
 
-            <script is="delay-script"
-                    url="/cdn/shop/t/11/assets/award-carousel.js?v=67373144125090953021689848815"></script>
+            <script is="delay-script" url="/cdn/shop/t/11/assets/award-carousel.js?v=67373144125090953021689848815"
+                    phase="interactive"></script>
         </section>
 
 
@@ -4963,7 +4926,7 @@
     </div>
     <div id="shopify-section-template--15787492933770__media-with-text-banners"
          class="shopify-section media-with-text-banners-wrapper">
-        <link is="delay-stylesheet"
+        <link rel="stylesheet"
               href="/cdn/shop/t/11/assets/media-with-text-banners.css?v=138713714491422733301687251082">
 
         <div id="mediaWithTextBannersSection" class="banners-container page-boundary">
@@ -4971,7 +4934,7 @@
             <div class="banner-item ">
                 <div class="media-wrapper">
 
-                    <video playsinline="playsinline" autoplay="autoplay" loop="loop" muted="muted" preload="metadata"
+                    <video playsinline="playsinline" autoplay="autoplay" loop="loop" muted="muted" preload="none"
                            poster="/cdn/shop/files/preview_images/fddd92c316544b6ca7728a2bc8f1ff34.thumbnail.0000000000_1x.jpg?v=1684749173">
                         <source src="https://cdn.shopify.com/videos/c/vp/fddd92c316544b6ca7728a2bc8f1ff34/fddd92c316544b6ca7728a2bc8f1ff34.HD-720p-4.5Mbps-14823563.mp4"
                                 type="video/mp4">
@@ -4993,7 +4956,7 @@
             <div class="banner-item  is-reversed">
                 <div class="media-wrapper">
 
-                    <video playsinline="playsinline" autoplay="autoplay" loop="loop" muted="muted" preload="metadata"
+                    <video playsinline="playsinline" autoplay="autoplay" loop="loop" muted="muted" preload="none"
                            poster="/cdn/shop/files/preview_images/3f788e6602a34134868ee4ca7513692e.thumbnail.0000000000_1x.jpg?v=1684749242">
                         <source src="https://cdn.shopify.com/videos/c/vp/3f788e6602a34134868ee4ca7513692e/3f788e6602a34134868ee4ca7513692e.HD-720p-2.1Mbps-14823605.mp4"
                                 type="video/mp4">
@@ -5015,7 +4978,7 @@
             <div class="banner-item ">
                 <div class="media-wrapper">
 
-                    <video playsinline="playsinline" autoplay="autoplay" loop="loop" muted="muted" preload="metadata"
+                    <video playsinline="playsinline" autoplay="autoplay" loop="loop" muted="muted" preload="none"
                            poster="/cdn/shop/files/preview_images/a9c96c1f6f424f30abb43de27bea59ad.thumbnail.0000000000_1x.jpg?v=1684749251">
                         <source src="https://cdn.shopify.com/videos/c/vp/a9c96c1f6f424f30abb43de27bea59ad/a9c96c1f6f424f30abb43de27bea59ad.SD-480p-0.9Mbps-14823608.mp4"
                                 type="video/mp4">
@@ -5039,7 +5002,7 @@
     </div>
     <div id="shopify-section-template--15787492933770__social-proof" class="shopify-section">
 
-        <link is="delay-stylesheet" href="/cdn/shop/t/11/assets/social-proof.css?v=149700403883393653591687251078">
+        <link rel="stylesheet" href="/cdn/shop/t/11/assets/social-proof.css?v=149700403883393653591687251078">
 
         <section id="social-proof-section" class="section-container bg-cultured">
             <div class="section-chassis page-boundary">
@@ -5352,7 +5315,7 @@
     </div>
     <div id="shopify-section-template--15787492933770__featured-faqs" class="shopify-section">
 
-        <link is="delay-stylesheet" href="/cdn/shop/t/11/assets/featured-faqs.css?v=60717407356205239741687251076">
+        <link rel="stylesheet" href="/cdn/shop/t/11/assets/featured-faqs.css?v=60717407356205239741687251076">
 
         <section id="featured-faqs-section" class="section-container spacing-xl">
             <div class="section-chassis page-boundary">
@@ -5705,8 +5668,6 @@
             </div>
         </div>
     </footer>
-
-
 </div>
 
 <ul hidden="">
@@ -5718,20 +5679,26 @@
 </ul>
 
 
-<script is="delay-script"
-        url="/cdn/shop/t/11/assets/jquery.ba-throttle-debounce.js?v=103250179697527314711688024714"></script>
-<script is="delay-script" url="/cdn/shop/t/11/assets/jquery.beefup.min.js?v=82952605651928686161688024714"></script>
-<script is="delay-script" url="/cdn/shop/t/11/assets/jquery.modal.min.js?v=15875380166552750701688024716"></script>
-<script is="delay-script" url="/cdn/shop/t/11/assets/jquery.fancybox.min.js?v=102984942719613846721688024715"></script>
-<script is="delay-script" url="/cdn/shop/t/11/assets/select2.min.js?v=49960443923896795481688024721"></script>
-<script is="delay-script" url="/cdn/shop/t/11/assets/splide.min.js?v=15323724465567850331688024725"></script>
-<script is="delay-script" url="/cdn/shop/t/11/assets/toastr.min.js?v=32063384496253430001688024728"></script>
-<script is="delay-script" url="/cdn/shop/t/11/assets/swiper-bundle.min.js?v=30986975797822707101688024726"></script>
-<script is="delay-script" url="/cdn/shop/t/11/assets/popper.min.js?v=106254159189482773611688024720"></script>
+<script is="delay-script" url="/cdn/shop/t/11/assets/jquery.ba-throttle-debounce.js?v=103250179697527314711688024714"
+        phase="interactive"></script>
+<script is="delay-script" url="/cdn/shop/t/11/assets/jquery.beefup.min.js?v=82952605651928686161688024714"
+        phase="interactive"></script>
+<script is="delay-script" url="/cdn/shop/t/11/assets/jquery.modal.min.js?v=15875380166552750701688024716"
+        phase="interactive"></script>
+<script is="delay-script" url="/cdn/shop/t/11/assets/jquery.fancybox.min.js?v=102984942719613846721688024715"
+        phase="interactive"></script>
+<script is="delay-script" url="/cdn/shop/t/11/assets/select2.min.js?v=49960443923896795481688024721"
+        phase="interactive"></script>
+<script is="delay-script" url="/cdn/shop/t/11/assets/toastr.min.js?v=32063384496253430001688024728"
+        phase="interactive"></script>
+<script is="delay-script" url="/cdn/shop/t/11/assets/swiper-bundle.min.js?v=30986975797822707101688024726"
+        phase="interactive"></script>
+<script is="delay-script" url="/cdn/shop/t/11/assets/popper.min.js?v=106254159189482773611688024720"
+        phase="interactive"></script>
 <script is="delay-script" phase="interactive"
         url="/cdn/shop/t/11/assets/tippy-bundle.umd.min.js?v=106717848408361717631688024727"></script>
-<script is="delay-script" url="/cdn/shop/t/11/assets/mediabox.min.js?v=150177701041689025671688024719"></script>
-<script is="delay-script" url="/cdn/shop/t/11/assets/lazysizes.min.js?v=155223123402716617051647849393"></script>
+<script is="delay-script" url="/cdn/shop/t/11/assets/mediabox.min.js?v=150177701041689025671688024719"
+        phase="interactive"></script>
 
 <link is="delay-stylesheet" href="/cdn/shop/t/11/assets/jquery.modal.min.css?v=64857397979575196151688024716">
 <link is="delay-stylesheet" href="/cdn/shop/t/11/assets/jquery.fancybox.css?v=159808164371632363711688024715">
@@ -5741,7 +5708,8 @@
 <link is="delay-stylesheet" href="/cdn/shop/t/11/assets/swiper-bundle.min.css?v=183092761113033764571688024725">
 <link is="delay-stylesheet" href="/cdn/shop/t/11/assets/mediabox.min.css?v=178153156364416133851688024719">
 
-<script is="delay-script" url="/cdn/shop/t/11/assets/modernizr.min.js?v=21391054748206432451647849408"></script>
+<script is="delay-script" url="/cdn/shop/t/11/assets/modernizr.min.js?v=21391054748206432451647849408"
+        phase="interactive"></script>
 
 
 <script is="delay-script" phase="interactive" url="https://www.googleoptimize.com/optimize.js?id=OPT-KNFWBCL"></script>
@@ -5821,7 +5789,7 @@
 
 
 <!-- Start Weglot Script -->
-<script is="delay-script" url="https://cdn.weglot.com/weglot.min.js"></script>
+<script is="delay-script" url="https://cdn.weglot.com/weglot.min.js" phase="interactive"></script>
 <script id="has-script-tags" is="delay-script" phase="interactive">
     Weglot.initialize({api_key: 'wg_e352fa8c030a877a802a404aac1074d00'});
 </script>
@@ -5841,7 +5809,7 @@
         y.parentNode.insertBefore(t, y);
     })(window, document, 'clarity', 'script', 'd60mjcc2fl');
 </script>
-<script defer="true">
+<script is="delay-script" phase="interactive">
     (function (i, s, o, g, r, a, m) {
         i["abtiming"] = 1 * new Date();
         a = s.createElement(o),
@@ -5851,7 +5819,7 @@
         m.parentNode.insertBefore(a, m)
     })(window, document, "script", "//try.abtasty.com/b98579b87d8565047076037f703e1727.js");
 </script>
-<script defer="true">
+<script is="delay-script" phase="interactive">
     if (typeof ometria == 'undefined') window.ometria = {};
     ometria.raw_data = {
         template: "index",
@@ -5886,21 +5854,18 @@
 </script>
 
 
-<link is="delay-stylesheet" href="/cdn/shop/t/11/assets/new-splide.css?v=100926187677075264311687357027">
+<link rel="stylesheet" href="/cdn/shop/t/11/assets/new-splide.css?v=100926187677075264311687357027">
 
 
-<script is="delay-script" url="/cdn/shop/t/11/assets/global.js?v=31874650481387444961694160502"></script>
-<script is="delay-script" url="/cdn/shop/t/11/assets/variant-selects.js?v=142778093263602674021694159162"></script>
-
-<script is="delay-script" url="/cdn/shop/t/11/assets/helpers.js?v=27854430373278452491688024718"></script>
+<script is="delay-script" url="/cdn/shop/t/11/assets/variant-selects.js?v=142778093263602674021694159162"
+        phase="interactive"></script>
 
 
 <script is="delay-script" phase="interactive"
         url="/cdn/shop/t/11/assets/quantity-adjuster.js?v=63438535502664631441678797214"></script>
 <script is="delay-script" phase="interactive"
         url="/cdn/shop/t/11/assets/variant-selector.js?v=148380756409455986861666688389"></script>
-<script is="delay-script" phase="interactive"
-        url="/cdn/shop/t/11/assets/layout-scripts.js?v=81574266922274938051691121534"></script>
+
 
 <script defer="true">
     window.routes = {
@@ -5923,13 +5888,17 @@
     }
 </style>
 
-<link is="delay-stylesheet" href="/cdn/shop/t/11/assets/cart-drawer.css?v=111562508632001881001694591557">
-<link is="delay-stylesheet" href="/cdn/shop/t/11/assets/component-cart.css?v=61086454150987525971666688394">
+<link rel="stylesheet" href="/cdn/shop/t/11/assets/cart-drawer.css?v=111562508632001881001694591557">
+<link rel="stylesheet" href="/cdn/shop/t/11/assets/component-cart.css?v=61086454150987525971666688394">
 
-<script is="delay-script" url="/cdn/shop/t/11/assets/cart.js?v=102393167721669557241694159418"></script>
-<script is="delay-script" url="/cdn/shop/t/11/assets/cart-drawer.js?v=144714812610118039071678877879"></script>
-<script is="delay-script" url="/cdn/shop/t/11/assets/cart-item.js?v=18674064785282689951694591558"></script>
-<script is="delay-script" url="/cdn/shop/t/11/assets/cart-upsell.js?v=179965737164722341261684224838"></script>
+<script is="delay-script" phase="interactive"
+        url="/cdn/shop/t/11/assets/cart.js?v=102393167721669557241694159418"></script>
+<script is="delay-script" phase="interactive"
+        url="/cdn/shop/t/11/assets/cart-drawer.js?v=144714812610118039071678877879"></script>
+<script is="delay-script" phase="interactive"
+        url="/cdn/shop/t/11/assets/cart-item.js?v=18674064785282689951694591558"></script>
+<script is="delay-script" phase="interactive"
+        url="/cdn/shop/t/11/assets/cart-upsell.js?v=179965737164722341261684224838"></script>
 
 <cart-drawer id="CartDrawer" class="">
     <div id="CartDrawer-Overlay" class="cart-drawer__overlay"></div>
@@ -6716,7 +6685,7 @@
     </div>
 
 </div>
-<link href="/cdn/shop/t/11/assets/store-localization.css?v=63831442359007797311687251079" rel="stylesheet"
+<link href="/cdn/shop/t/11/assets/store-localization.css?v=63831442359007797311687251079" is="delay-stylesheet"
       type="text/css" media="all">
 
 <div id="store-localization-popup">

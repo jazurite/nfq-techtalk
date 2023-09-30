@@ -1,6 +1,63 @@
 <!DOCTYPE html>
 <html class="no-js" lang="en">
 <head>
+    <script src="/cdn/shop/files/unpkg.com__ungap_custom-elements_1.2.0_min.js?v=14575434054564561414"
+            type="text/javascript" defer="true"></script>
+
+    <script defer="true" src="/cdn/shop/t/11/assets/delay-resource.js?v=77336820692469244571690273878"></script>
+    <script defer="true" src="/cdn/shop/files/first-interactive.min.js?v=632418561529047290"></script>
+    <script defer="true" src="/cdn/shop/files/jquery-3.6.0.min.js?v=832450138385343479"></script>
+
+    <script defer="true" src="/cdn/shop/t/11/assets/custom-elements.js?v=63441368354317747581666688395"></script>
+    <script defer="true" src="/cdn/shop/t/11/assets/loading-overlay.js?v=165644621593570602981666688387"></script>
+
+    <script is="delay-script" url="/cdn/shop/t/11/assets/global.js?v=31874650481387444961694160502"></script>
+    <script is="delay-script" url="/cdn/shop/t/11/assets/lazysizes.min.js?v=155223123402716617051647849393"></script>
+    <script is="delay-script" url="/cdn/shop/t/11/assets/splide.min.js?v=15323724465567850331688024725"></script>
+    <script is="delay-script" url="/cdn/shop/t/11/assets/layout-scripts.js?v=81574266922274938051691121534"></script>
+    <script is="delay-script" url="/cdn/shop/t/11/assets/helpers.js?v=27854430373278452491688024718"></script>
+
+    <style>
+        .splide:not(.is-initialized) {
+            display: none;
+        }
+
+        img {
+            height: auto
+        }
+    </style>
+    <!-- CSS ================================================== -->
+    <link is="delay-stylesheet" href="/cdn/shop/t/11/assets/timber.css?v=159571336311555510971684824513">
+    <link is="delay-stylesheet" href="/cdn/shop/t/11/assets/theme.css?v=164442859797059635561690273880">
+    <!-- CUSTOM CSS ================================================== -->
+    <link is="delay-stylesheet" href="/cdn/shop/t/11/assets/custom-theme.css?v=20891048303685117561686041529">
+    <link is="delay-stylesheet" href="/cdn/shop/t/11/assets/custom.css?v=177743090204326963411670913012">
+    <link is="delay-stylesheet" href="/cdn/shop/t/11/assets/custom-theme-3.css?v=133590341990656705491684824515">
+
+    <link rel="stylesheet" href="/cdn/shop/t/11/assets/base.css?v=48100596806574359551695713945">
+    <link rel="stylesheet" href="/cdn/shop/t/11/assets/legacy.css?v=177997722352149800751687251080">
+    <link rel="stylesheet" href="/cdn/shop/t/11/assets/typography.css?v=24496480099890758131687251081">
+    <link is="delay-stylesheet" href="/cdn/shop/t/11/assets/select2.min.css?v=3199361556163848531688024720">
+    <link rel="stylesheet" href="/cdn/shop/t/11/assets/vendors.css?v=106288142737246749421690864998">
+    <link rel="stylesheet" href="/cdn/shop/t/11/assets/global.css?v=121642044686454688461695713945">
+    <link is="delay-stylesheet" href="/cdn/shop/t/11/assets/fonts.css?v=58483565803451788371695806730">
+
+
+    <link rel="stylesheet" href="/cdn/shop/t/11/assets/new-heading.css?v=9457285026445821181687357026">
+
+    <link rel="stylesheet" href="/cdn/shop/t/11/assets/tailwind.css?v=148318756378458697681694159162">
+
+
+    <script defer="true">
+        const Shop = {
+            id: "56298733706",
+            assetUrl: "/cdn/shop/t/11/assets/a?100299".match(/^.*\//g)[0],
+            fileUrl: "/cdn/shop/files/a?100299".match(/^.*\//g)[0],
+            fileImgUrl: "/cdn/shopifycloud/shopify/assets/no-image-100-c91dd4bdb56513f2cbf4fc15436ca35e9d4ecd014546c8d421b1aece861dfecf_small.gif".match(/^.*\//g)[0],
+            locale: location.origin === "https://qc.emma-sleep.ca" ? "fr" : "en"
+        };
+    </script>
+
     <script defer="true">window.performance && window.performance.mark && window.performance.mark('shopify.content_for_header.start');</script>
     <meta name="google-site-verification" content="8NrZlTq5Lc38Dcf3TXtYAYwsRtuJ4a7uquA03qTXb0s">
     <meta id="shopify-digital-wallet" name="shopify-digital-wallet" content="/56298733706/digital_wallets/dialog">
@@ -10,7 +67,7 @@
     <link rel="alternate" hreflang="x-default" href="https:/">
     <link rel="alternate" hreflang="en-CA" href="https:/">
     <link rel="alternate" hreflang="fr-CA" href="https:/fr">
-    <script defer="true">
+    <script is="delay-script" phase="interactive">
         (function () {
             var scripts = ["https://cdn.shopify.com/shopifycloud/checkout-web/assets/runtime.latest.en.b61b3f9dfdcc0a077f11.js", "https://cdn.shopify.com/shopifycloud/checkout-web/assets/809.latest.en.22b066f200008aec130a.js", "https://cdn.shopify.com/shopifycloud/checkout-web/assets/Information.latest.en.54dfe5d34985e1982b50.js", "https://cdn.shopify.com/shopifycloud/checkout-web/assets/23.latest.en.a7ee3a2bd3fc2ad170b2.js", "https://cdn.shopify.com/shopifycloud/checkout-web/assets/733.latest.en.22cb4eafe0499ff4281e.js", "https://cdn.shopify.com/shopifycloud/checkout-web/assets/39.latest.en.99827a586f76e932dc2d.js", "https://cdn.shopify.com/shopifycloud/checkout-web/assets/app.latest.en.f936660d1941d75ef257.js"];
             var styles = ["https://cdn.shopify.com/shopifycloud/checkout-web/assets/23.latest.en.3cbccf84d73cde1fb510.css", "https://cdn.shopify.com/shopifycloud/checkout-web/assets/app.latest.en.9d6b9f970cd086c012b2.css", "https://cdn.shopify.com/shopifycloud/checkout-web/assets/739.latest.en.3ad1658c0d5df64841ff.css"];
@@ -148,7 +205,7 @@
             "payment-terms": ["modules/client.payment-terms_8c0535c9.en.esm.js", "modules/chunk.common_b40c70c3.esm.js"]
         };
     </script>
-    <script defer="true">(function () {
+    <script is="delay-script" phase="interactive">(function () {
         function asyncLoad() {
             var urls = ["https:\/\/cdn.weglot.com\/weglot_script_tag.js?shop=emma-sleep-ca.myshopify.com", "https:\/\/cdn.avmws.com\/1021029\/?shop=emma-sleep-ca.myshopify.com", "\/\/cdn.shopify.com\/proxy\/971447fa0ca00471c4a74bf546f8fb248d71816fc5fd20c73369ed0354fa0437\/bingshoppingtool-t2app-prod.trafficmanager.net\/uet\/tracking_script?shop=emma-sleep-ca.myshopify.com\u0026sp-cache-control=cHVibGljLCBtYXgtYWdlPTkwMA", "\/\/staticw2.yotpo.com\/hEc3IC0lCXuQ15phwUS54IFWUkW2L7LAcNLTHkt6\/widget.js?shop=emma-sleep-ca.myshopify.com", "https:\/\/cdn-scripts.signifyd.com\/shopify\/script-tag.js?shop=emma-sleep-ca.myshopify.com", "https:\/\/cdn.attn.tv\/emmasleep\/dtag.js?shop=emma-sleep-ca.myshopify.com", "https:\/\/www.dwin1.com\/41984.js?shop=emma-sleep-ca.myshopify.com", "https:\/\/static.shareasale.com\/json\/shopify\/deduplication.js?shop=emma-sleep-ca.myshopify.com", "https:\/\/cdn1.judge.me\/assets\/installed.js?shop=emma-sleep-ca.myshopify.com", "\/\/productreviews.shopifycdn.com\/embed\/loader.js?shop=emma-sleep-ca.myshopify.com", "https:\/\/my.parcelpanel.com\/assets\/admin\/custom\/js\/checkout.js?v=1.0.1\u0026shop=emma-sleep-ca.myshopify.com"];
             for (var i = 0; i < urls.length; i++) {
@@ -195,15 +252,14 @@
         })
     }(document);</script>
     <script integrity="sha256-h4dvokWvGcvRSqiG7VnGqoonxF0k3NeoHPLSMjUGIz4="
-            data-source-attribution="shopify.loadfeatures" defer="true"
-            src="/cdn/shopifycloud/shopify/assets/storefront/load_feature-87876fa245af19cbd14aa886ed59c6aa8a27c45d24dcd7a81cf2d2323506233e.js"
-            crossorigin="anonymous"></script>
-    <script crossorigin="anonymous" defer="true"
-            src="/cdn/shopifycloud/shopify/assets/shopify_pay/storefront-a2d444786d996da5634fbbaeeffe6104ee672440dfa6cdcaebfb27dceaaf9c0f.js?v=20220906"></script>
+            data-source-attribution="shopify.loadfeatures" is="delay-script" phase="interactive" crossorigin="anonymous"
+            url="/cdn/shopifycloud/shopify/assets/storefront/load_feature-87876fa245af19cbd14aa886ed59c6aa8a27c45d24dcd7a81cf2d2323506233e.js"></script>
+    <script crossorigin="anonymous" is="delay-script" phase="interactive"
+            url="/cdn/shopifycloud/shopify/assets/shopify_pay/storefront-a2d444786d996da5634fbbaeeffe6104ee672440dfa6cdcaebfb27dceaaf9c0f.js?v=20220906"></script>
     <script integrity="sha256-HAs5a9TQVLlKuuHrahvWuke+s1UlxXohfHeoYv8G2D8="
-            data-source-attribution="shopify.dynamic-checkout" defer="true"
-            src="/cdn/shopifycloud/shopify/assets/storefront/features-1c0b396bd4d054b94abae1eb6a1bd6ba47beb35525c57a217c77a862ff06d83f.js"
-            crossorigin="anonymous"></script>
+            data-source-attribution="shopify.dynamic-checkout" is="delay-script" phase="interactive"
+            crossorigin="anonymous"
+            url="/cdn/shopifycloud/shopify/assets/storefront/features-1c0b396bd4d054b94abae1eb6a1bd6ba47beb35525c57a217c77a862ff06d83f.js"></script>
     <!-- placeholder b756d449a7a8169e -->
     <script defer="true">window.performance && window.performance.mark && window.performance.mark('shopify.content_for_header.end');</script>
 
@@ -234,40 +290,6 @@
             "preview_bar_injector",
         ];
     </script>
-
-    <script src="/cdn/shop/files/unpkg.com__ungap_custom-elements_1.2.0_min.js?v=14575434054564561414"
-            type="text/javascript" defer="true"></script>
-
-    <script src="/cdn/shop/t/11/assets/delay-resource.js?v=77336820692469244571690273878" type="text/javascript"
-            defer="true"></script>
-    <script is="delay-script" url="/cdn/shop/files/first-interactive.min.js?v=632418561529047290"></script>
-
-    <script defer="true" src="/cdn/shop/files/jquery-3.6.0.min.js?v=832450138385343479"></script>
-    <script defer="true" src="/cdn/shop/files/preconnect.min.js?v=13923842066579538563"></script>
-    <script defer="true" src="/cdn/shop/t/11/assets/custom-elements.js?v=63441368354317747581666688395"></script>
-    <script defer="true" src="/cdn/shop/t/11/assets/loading-overlay.js?v=165644621593570602981666688387"></script>
-    <style>
-        .splide:not(.is-initialized) {
-            display: none;
-        }
-
-        img {
-            height: auto
-        }
-    </style>
-
-
-    <script defer="true">
-        const Shop = {
-            id: "56298733706",
-            assetUrl: "/cdn/shop/t/11/assets/a?100299".match(/^.*\//g)[0],
-            fileUrl: "/cdn/shop/files/a?100299".match(/^.*\//g)[0],
-            fileImgUrl: "/cdn/shopifycloud/shopify/assets/no-image-100-c91dd4bdb56513f2cbf4fc15436ca35e9d4ecd014546c8d421b1aece861dfecf_small.gif".match(/^.*\//g)[0],
-            locale: location.origin === "https://qc.emma-sleep.ca" ? "fr" : "en"
-        };
-    </script>
-
-
     <!-- Basic page needs ================================================== -->
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
@@ -317,31 +339,6 @@
     <!--International SEO: hreflang tags-->
 
 
-    <!-- CSS ================================================== -->
-    <link is="delay-stylesheet" href="/cdn/shop/t/11/assets/timber.css?v=159571336311555510971684824513">
-    <link is="delay-stylesheet" href="/cdn/shop/t/11/assets/theme.css?v=164442859797059635561690273880">
-    <!-- CUSTOM CSS ================================================== -->
-    <link is="delay-stylesheet" href="/cdn/shop/t/11/assets/custom-theme.css?v=20891048303685117561686041529">
-    <link is="delay-stylesheet" href="/cdn/shop/t/11/assets/custom.css?v=177743090204326963411670913012">
-    <link is="delay-stylesheet" href="/cdn/shop/t/11/assets/custom-theme-3.css?v=133590341990656705491684824515">
-
-    <link is="delay-stylesheet" href="/cdn/shop/t/11/assets/base.css?v=48100596806574359551695713945">
-    <link is="delay-stylesheet" href="/cdn/shop/t/11/assets/legacy.css?v=177997722352149800751687251080">
-    <link is="delay-stylesheet" href="/cdn/shop/t/11/assets/typography.css?v=24496480099890758131687251081">
-    <link is="delay-stylesheet" href="/cdn/shop/t/11/assets/select2.min.css?v=3199361556163848531688024720">
-    <link is="delay-stylesheet" href="/cdn/shop/t/11/assets/vendors.css?v=106288142737246749421690864998">
-    <link is="delay-stylesheet" href="/cdn/shop/t/11/assets/global.css?v=121642044686454688461695713945">
-    <link is="delay-stylesheet" href="/cdn/shop/t/11/assets/fonts.css?v=58483565803451788371695806730">
-
-
-    <link is="delay-stylesheet" href="/cdn/shop/t/11/assets/new-heading.css?v=9457285026445821181687357026">
-
-
-    <link is="delay-stylesheet" href="">
-
-    <link is="delay-stylesheet" href="/cdn/shop/t/11/assets/tailwind.css?v=148318756378458697681694159162">
-
-
     <script defer="true">window.performance && window.performance.mark && window.performance.mark('shopify.content_for_header.start');</script>
     <meta name="google-site-verification" content="8NrZlTq5Lc38Dcf3TXtYAYwsRtuJ4a7uquA03qTXb0s">
     <meta id="shopify-digital-wallet" name="shopify-digital-wallet" content="/56298733706/digital_wallets/dialog">
@@ -489,24 +486,25 @@
             "payment-terms": ["modules/client.payment-terms_8c0535c9.en.esm.js", "modules/chunk.common_b40c70c3.esm.js"]
         };
     </script>
-    <script defer="true">(function () {
-        function asyncLoad() {
-            var urls = ["https:\/\/cdn.weglot.com\/weglot_script_tag.js?shop=emma-sleep-ca.myshopify.com", "https:\/\/cdn.avmws.com\/1021029\/?shop=emma-sleep-ca.myshopify.com", "\/\/cdn.shopify.com\/proxy\/971447fa0ca00471c4a74bf546f8fb248d71816fc5fd20c73369ed0354fa0437\/bingshoppingtool-t2app-prod.trafficmanager.net\/uet\/tracking_script?shop=emma-sleep-ca.myshopify.com\u0026sp-cache-control=cHVibGljLCBtYXgtYWdlPTkwMA", "\/\/staticw2.yotpo.com\/hEc3IC0lCXuQ15phwUS54IFWUkW2L7LAcNLTHkt6\/widget.js?shop=emma-sleep-ca.myshopify.com", "https:\/\/cdn-scripts.signifyd.com\/shopify\/script-tag.js?shop=emma-sleep-ca.myshopify.com", "https:\/\/cdn.attn.tv\/emmasleep\/dtag.js?shop=emma-sleep-ca.myshopify.com", "https:\/\/www.dwin1.com\/41984.js?shop=emma-sleep-ca.myshopify.com", "https:\/\/static.shareasale.com\/json\/shopify\/deduplication.js?shop=emma-sleep-ca.myshopify.com", "https:\/\/cdn1.judge.me\/assets\/installed.js?shop=emma-sleep-ca.myshopify.com", "\/\/productreviews.shopifycdn.com\/embed\/loader.js?shop=emma-sleep-ca.myshopify.com", "https:\/\/my.parcelpanel.com\/assets\/admin\/custom\/js\/checkout.js?v=1.0.1\u0026shop=emma-sleep-ca.myshopify.com"];
-            for (var i = 0; i < urls.length; i++) {
-                var s = document.createElement('script');
-                s.type = 'text/javascript';
-                s.async = true;
-                s.src = urls[i];
-                var x = document.getElementsByTagName('script')[0];
-                x.parentNode.insertBefore(s, x);
+    <script is="delay-script" phase="interactive">
+        (function () {
+            function asyncLoad() {
+                var urls = ["https:\/\/cdn.weglot.com\/weglot_script_tag.js?shop=emma-sleep-ca.myshopify.com", "https:\/\/cdn.avmws.com\/1021029\/?shop=emma-sleep-ca.myshopify.com", "\/\/cdn.shopify.com\/proxy\/971447fa0ca00471c4a74bf546f8fb248d71816fc5fd20c73369ed0354fa0437\/bingshoppingtool-t2app-prod.trafficmanager.net\/uet\/tracking_script?shop=emma-sleep-ca.myshopify.com\u0026sp-cache-control=cHVibGljLCBtYXgtYWdlPTkwMA", "\/\/staticw2.yotpo.com\/hEc3IC0lCXuQ15phwUS54IFWUkW2L7LAcNLTHkt6\/widget.js?shop=emma-sleep-ca.myshopify.com", "https:\/\/cdn-scripts.signifyd.com\/shopify\/script-tag.js?shop=emma-sleep-ca.myshopify.com", "https:\/\/cdn.attn.tv\/emmasleep\/dtag.js?shop=emma-sleep-ca.myshopify.com", "https:\/\/www.dwin1.com\/41984.js?shop=emma-sleep-ca.myshopify.com", "https:\/\/static.shareasale.com\/json\/shopify\/deduplication.js?shop=emma-sleep-ca.myshopify.com", "https:\/\/cdn1.judge.me\/assets\/installed.js?shop=emma-sleep-ca.myshopify.com", "\/\/productreviews.shopifycdn.com\/embed\/loader.js?shop=emma-sleep-ca.myshopify.com", "https:\/\/my.parcelpanel.com\/assets\/admin\/custom\/js\/checkout.js?v=1.0.1\u0026shop=emma-sleep-ca.myshopify.com"];
+                for (var i = 0; i < urls.length; i++) {
+                    var s = document.createElement('script');
+                    s.type = 'text/javascript';
+                    s.async = true;
+                    s.src = urls[i];
+                    var x = document.getElementsByTagName('script')[0];
+                    x.parentNode.insertBefore(s, x);
+                }
+            };
+            if (window.attachEvent) {
+                window.attachEvent('onload', asyncLoad);
+            } else {
+                window.addEventListener('load', asyncLoad, false);
             }
-        };
-        if (window.attachEvent) {
-            window.attachEvent('onload', asyncLoad);
-        } else {
-            window.addEventListener('load', asyncLoad, false);
-        }
-    })();</script>
+        })();</script>
     <script id="__st" defer="true">var __st = {
         "a": 56298733706,
         "offset": -14400,
@@ -566,7 +564,7 @@
 
 
     <!-- Start Weglot Script -->
-    <script is="delay-script" url="https://cdn.weglot.com/weglot.min.js"></script>
+    <script is="delay-script" url="https://cdn.weglot.com/weglot.min.js" phase="interactive"></script>
     <script id="has-script-tags" is="delay-script" phase="interactive">
         Weglot.initialize({api_key: 'wg_e352fa8c030a877a802a404aac1074d00'});
     </script>
@@ -575,7 +573,8 @@
     <!-- BEGIN app block: shopify://apps/klaviyo-email-marketing-sms/blocks/klaviyo-onsite-embed/2632fe16-c075-4321-a88b-50b567f42507 -->
 
 
-    <script async="" src="https://static.klaviyo.com/onsite/js/klaviyo.js?company_id=TGESpr" defer="true"></script>
+    <script is="delay-script" phase="interactive"
+            url="https://static.klaviyo.com/onsite/js/klaviyo.js?company_id=TGESpr"></script>
     <script defer="true">!function () {
         if (!window.klaviyo) {
             window._klOnsite = window._klOnsite || [];
@@ -611,8 +610,8 @@
     <!-- BEGIN app block: shopify://apps/vitals-all-in-one-marketing/blocks/app-embed/aeb48102-2a5a-4f39-bdbd-d8d49f4e20b8 -->
     <script data-ver="16" id="vtlsAebData" defer="true">window.vtlsLiquidData = {};
     window.vtlsLiquidData.cacheKeys = [1642067320, 0, 0, 1668528602, 1644587031, 0, 0];</script>
-    <script src="https://appsolve.io/sf/v1/assets/js/main/emma-sleep-ca.myshopify.com/1695911603/bundle.js" async=""
-            defer="true"></script>
+    <script is="delay-script" phase="interactive"
+            url="https://appsolve.io/sf/v1/assets/js/main/emma-sleep-ca.myshopify.com/1695911603/bundle.js"></script>
     <!-- END app app block -->
     <link href="https://monorail-edge.shopifysvc.com" rel="dns-prefetch">
     <script defer="true">(function () {
@@ -646,7 +645,7 @@
             window.addEventListener('pagehide', handle_abandonment_event);
         }
     }());</script>
-    <script id="web-pixels-manager-setup" defer="true">(function e(e, a, n, r, t, o, i) {
+    <script id="web-pixels-manager-setup" is="delay-script" phase="interactive">(function e(e, a, n, r, t, o, i) {
         var s = null !== e, l = function () {
             var e = "unknown", a = null, n = navigator.userAgent, r = n.match(/(Firefox|Chrome)\/(\d+)/i),
                 t = n.match(/(Edg)\/(\d+)/i), o = n.match(/(Version)\/(\d+)(.+)(Safari)\/(\d+)/i);
@@ -769,7 +768,7 @@
 
     };
     </script>
-    <script class="analytics" defer="true">(function () {
+    <script class="analytics" is="delay-script" phase="interactive">(function () {
         var customDocumentWrite = function (content) {
             var jquery = null;
 
@@ -972,7 +971,7 @@
         document.getElementsByTagName('head')[0].appendChild(eventsListenerScript);
 
     })();</script>
-    <script class="boomerang" defer="true">
+    <script class="boomerang" is="delay-script" phase="interactive">
         (function () {
             if (window.BOOMR && (window.BOOMR.version || window.BOOMR.snippetExecuted)) {
                 return;
@@ -1206,8 +1205,6 @@
 
         <script is="delay-script" phase="interactive"
                 url="/cdn/shop/t/11/assets/announcement-bar.js?v=1762758780575705691689848814"></script>
-
-
     </div>
     <div id="shopify-section-sections--15913832546442__header"
          class="shopify-section shopify-section-group-header-group site-header-wrapper">
@@ -1220,13 +1217,8 @@
                     <div class="header-container">
                         <div>
                             <a class="hidden lg:inline" href="/">
-
-
-                                <img data-src="https://cdn.shopify.com/s/files/1/0815/3907/2306/files/home-9-logo.png?v=1695476557&amp;width=100"
-                                     class="lazyload " width="100" data-sizes="auto" data-srcset=""
-                                     alt="Ellamart® Canada" loading="lazy" fetchpriority="auto">
-
-
+                                <img src="https://cdn.shopify.com/s/files/1/0815/3907/2306/files/home-9-logo.png?v=1695476557&amp;width=100"
+                                     width="100" alt="Ellamart® Canada" fetchpriority="high">
                             </a>
 
                             <button id="hamburger-navigation-button" class="lg:hidden">
@@ -1308,11 +1300,8 @@
 
                             <div class="lg:hidden">
                                 <a href="/">
-
-                                    <img src="/cdn/shop/files/MicrosoftTeams-Logo_Emma_new_small.png?v=1683825563"
-                                         srcset="/cdn/shop/files/MicrosoftTeams-Logo_Emma_new_small.png?v=1683825563 1x, /cdn/shop/files/MicrosoftTeams-Logo_Emma_new_small@2x.png?v=1683825563 2x"
-                                         alt="Ellamart® Canada">
-
+                                    <img src="https://cdn.shopify.com/s/files/1/0815/3907/2306/files/home-9-logo.png?v=1695476557&amp;width=100"
+                                         width="100" alt="Ellamart® Canada" fetchpriority="high">
                                 </a>
                             </div>
                         </div>
@@ -1320,8 +1309,8 @@
                             <li><a tabindex="-1" class="language-redirection"></a></li>
                             <li>
                                 <a href="/account/login">
-                                    <img src="/cdn/shop/t/11/assets/account.svg?v=133085420606179436751658832297"
-                                         loading="lazy" width="28" height="35">
+                                    <img loading="lazy" width="28" height="35" class="lazyload"
+                                         data-src="/cdn/shop/t/11/assets/account.svg?v=133085420606179436751658832297">
                                 </a>
                             </li>
 
@@ -1401,9 +1390,8 @@
                                        class="relative mb-4 rounded-md bg-gray-100 block h-[260px]">
                                         <p class="absolute left-4 top-4 inline-block rounded bg-[#FF8900] p-2 text-[13px] leading-none text-white">
                                             Up to 40% off</p>
-                                        <img class="h-full w-full object-contain"
-                                             src="https://cdn.accentuate.io/6713686098058/1661330146485/254830_Emma_Origina_3_sh.webp?v=1687424340156"
-                                             alt="" loading="lazy">
+                                        <img class="h-full w-full object-contain lazyload" alt="" loading="lazy"
+                                             data-src="https://cdn.accentuate.io/6713686098058/1661330146485/254830_Emma_Origina_3_sh.webp?v=1687424340156">
                                     </a>
                                     <a class="text-[20px] font-semibold" href="/products/emma-original-mattress">Ellamart
                                         Original Mattress</a>
@@ -1420,9 +1408,8 @@
                                        class="relative mb-4 rounded-md bg-gray-100 block h-[260px]">
                                         <p class="absolute left-4 top-4 inline-block rounded bg-[#FF8900] p-2 text-[13px] leading-none text-white">
                                             Up to 50% off</p>
-                                        <img class="h-full w-full object-contain"
-                                             src="https://cdn.accentuate.io/7741865164938/1689065858620/download.png?v=1689669251712"
-                                             alt="" loading="lazy">
+                                        <img class="h-full w-full object-contain lazyload" alt="" loading="lazy"
+                                             data-src="https://cdn.accentuate.io/7741865164938/1689065858620/download.png?v=1689669251712">
                                     </a>
                                     <a class="text-[20px] font-semibold" href="/products/emma-hybrid-comfort">Ellamart
                                         Hybrid Comfort</a>
@@ -1439,9 +1426,8 @@
                                        class="relative mb-4 rounded-md bg-gray-100 block h-[260px]">
                                         <p class="absolute left-4 top-4 inline-block rounded bg-[#FF8900] p-2 text-[13px] leading-none text-white">
                                             Up to 35% off</p>
-                                        <img class="h-full w-full object-contain"
-                                             src="https://cdn.accentuate.io/7713717682314/1682687249915/04_Shift-removebg.webp?v=1687424429397"
-                                             alt="" loading="lazy">
+                                        <img class="h-full w-full object-contain lazyload" alt="" loading="lazy"
+                                             data-src="https://cdn.accentuate.io/7713717682314/1682687249915/04_Shift-removebg.webp?v=1687424429397">
                                     </a>
                                     <a class="text-[20px] font-semibold" href="/products/emma-shift">Ellamart Shift
                                         Mattress</a>
@@ -1487,9 +1473,8 @@
                                        class="relative mb-4 rounded-md bg-gray-100 block h-[260px]">
                                         <p class="absolute left-4 top-4 inline-block rounded bg-[#FF8900] p-2 text-[13px] leading-none text-white">
                                             Up to 55% off</p>
-                                        <img class="h-full w-full object-contain"
-                                             src="https://cdn.accentuate.io/7781585420426/1695661033037/Ellamart-CA---Thanksgiving-Bundle-02.jpg?v=1695661033037"
-                                             alt="" loading="lazy">
+                                        <img class="h-full w-full object-contain lazyload" alt="" loading="lazy"
+                                             data-src="https://cdn.accentuate.io/7781585420426/1695661033037/Ellamart-CA---Thanksgiving-Bundle-02.jpg?v=1695661033037">
                                     </a>
                                     <a class="text-[20px] font-semibold" href="/products/sleep-essential-bundle">Sleep
                                         Essential Bundle</a>
@@ -1535,9 +1520,8 @@
                                        class="relative mb-4 rounded-md bg-gray-100 block h-[260px]">
                                         <p class="absolute left-4 top-4 inline-block rounded bg-[#FF8900] p-2 text-[13px] leading-none text-white">
                                             Up to 15% off</p>
-                                        <img class="h-full w-full object-contain"
-                                             src="https://cdn.accentuate.io/6714893467786/1661330230922/emma-boxbed-grey-without-origina.webp?v=1687424457024"
-                                             alt="" loading="lazy">
+                                        <img class="h-full w-full object-contain lazyload" alt="" loading="lazy"
+                                             data-src="https://cdn.accentuate.io/6714893467786/1661330230922/emma-boxbed-grey-without-origina.webp?v=1687424457024">
                                     </a>
                                     <a class="text-[20px] font-semibold" href="/products/emma-bed-frame">Upholstered Bed
                                         Frame</a>
@@ -1590,9 +1574,8 @@
                                        class="relative mb-4 rounded-md bg-gray-100 block h-[260px]">
                                         <p class="absolute left-4 top-4 inline-block rounded bg-[#FF8900] p-2 text-[13px] leading-none text-white">
                                             Up to 21% off</p>
-                                        <img class="h-full w-full object-contain"
-                                             src="https://cdn.accentuate.io/6713689211018/1661330056402/Foam_Pillow_3_sh.webp?v=1687424581942"
-                                             alt="" loading="lazy">
+                                        <img class="h-full w-full object-contain lazyload" alt="" loading="lazy"
+                                             data-src="https://cdn.accentuate.io/6713689211018/1661330056402/Foam_Pillow_3_sh.webp?v=1687424581942">
                                     </a>
                                     <a class="text-[20px] font-semibold" href="/products/emma-foam-pillow">Original
                                         Adjustable Foam Pillow</a>
@@ -1609,9 +1592,8 @@
                                        class="relative mb-4 rounded-md bg-gray-100 block h-[260px]">
                                         <p class="absolute left-4 top-4 inline-block rounded bg-[#FF8900] p-2 text-[13px] leading-none text-white">
                                             Up to 20% off</p>
-                                        <img class="h-full w-full object-contain"
-                                             src="https://cdn.accentuate.io/6714891567242/1661329834621/Mattress_Protector_3_sh.webp?v=1687424557330"
-                                             alt="" loading="lazy">
+                                        <img class="h-full w-full object-contain lazyload" alt="" loading="lazy"
+                                             data-src="https://cdn.accentuate.io/6714891567242/1661329834621/Mattress_Protector_3_sh.webp?v=1687424557330">
                                     </a>
                                     <a class="text-[20px] font-semibold" href="/products/emma-mattress-protector">Breathable
                                         Mattress Protector</a>
@@ -1751,9 +1733,8 @@
                                            class="relative mb-4 rounded-md bg-gray-100 block h-[200px]">
                                             <p class="absolute left-4 top-4 inline-block rounded bg-[#FF8900] p-2 text-[13px] leading-none text-white">
                                                 Up to 40% off</p>
-                                            <img class="h-full w-full object-contain"
-                                                 src="https://cdn.accentuate.io/6713686098058/1661330146485/254830_Emma_Origina_3_sh.webp?v=1687424340156"
-                                                 alt="" loading="lazy">
+                                            <img class="h-full w-full object-contain lazyload" alt="" loading="lazy"
+                                                 data-src="https://cdn.accentuate.io/6713686098058/1661330146485/254830_Emma_Origina_3_sh.webp?v=1687424340156">
                                         </a>
                                         <a class="text-[20px] font-semibold" href="/products/emma-original-mattress">Ellamart
                                             Original Mattress</a>
@@ -1770,9 +1751,8 @@
                                            class="relative mb-4 rounded-md bg-gray-100 block h-[200px]">
                                             <p class="absolute left-4 top-4 inline-block rounded bg-[#FF8900] p-2 text-[13px] leading-none text-white">
                                                 Up to 50% off</p>
-                                            <img class="h-full w-full object-contain"
-                                                 src="https://cdn.accentuate.io/7741865164938/1689065858620/download.png?v=1689669251712"
-                                                 alt="" loading="lazy">
+                                            <img class="h-full w-full object-contain lazyload" alt="" loading="lazy"
+                                                 data-src="https://cdn.accentuate.io/7741865164938/1689065858620/download.png?v=1689669251712">
                                         </a>
                                         <a class="text-[20px] font-semibold" href="/products/emma-hybrid-comfort">Ellamart
                                             Hybrid Comfort</a>
@@ -1789,9 +1769,8 @@
                                            class="relative mb-4 rounded-md bg-gray-100 block h-[200px]">
                                             <p class="absolute left-4 top-4 inline-block rounded bg-[#FF8900] p-2 text-[13px] leading-none text-white">
                                                 Up to 35% off</p>
-                                            <img class="h-full w-full object-contain"
-                                                 src="https://cdn.accentuate.io/7713717682314/1682687249915/04_Shift-removebg.webp?v=1687424429397"
-                                                 alt="" loading="lazy">
+                                            <img class="h-full w-full object-contain lazyload" alt="" loading="lazy"
+                                                 data-src="https://cdn.accentuate.io/7713717682314/1682687249915/04_Shift-removebg.webp?v=1687424429397">
                                         </a>
                                         <a class="text-[20px] font-semibold" href="/products/emma-shift">Ellamart Shift
                                             Mattress</a>
@@ -1840,9 +1819,8 @@
                                            class="relative mb-4 rounded-md bg-gray-100 block h-[200px]">
                                             <p class="absolute left-4 top-4 inline-block rounded bg-[#FF8900] p-2 text-[13px] leading-none text-white">
                                                 Up to 55% off</p>
-                                            <img class="h-full w-full object-contain"
-                                                 src="https://cdn.accentuate.io/7781585420426/1695661033037/Ellamart-CA---Thanksgiving-Bundle-02.jpg?v=1695661033037"
-                                                 alt="" loading="lazy">
+                                            <img class="h-full w-full object-contain lazyload" alt="" loading="lazy"
+                                                 data-src="https://cdn.accentuate.io/7781585420426/1695661033037/Ellamart-CA---Thanksgiving-Bundle-02.jpg?v=1695661033037">
                                         </a>
                                         <a class="text-[20px] font-semibold" href="/products/sleep-essential-bundle">Sleep
                                             Essential Bundle</a>
@@ -1891,9 +1869,8 @@
                                            class="relative mb-4 rounded-md bg-gray-100 block h-[200px]">
                                             <p class="absolute left-4 top-4 inline-block rounded bg-[#FF8900] p-2 text-[13px] leading-none text-white">
                                                 Up to 15% off</p>
-                                            <img class="h-full w-full object-contain"
-                                                 src="https://cdn.accentuate.io/6714893467786/1661330230922/emma-boxbed-grey-without-origina.webp?v=1687424457024"
-                                                 alt="" loading="lazy">
+                                            <img class="h-full w-full object-contain lazyload" alt="" loading="lazy"
+                                                 data-src="https://cdn.accentuate.io/6714893467786/1661330230922/emma-boxbed-grey-without-origina.webp?v=1687424457024">
                                         </a>
                                         <a class="text-[20px] font-semibold" href="/products/emma-bed-frame">Upholstered
                                             Bed Frame</a>
@@ -2147,9 +2124,7 @@
 
 <main id="MainContent" role="main">
     <div id="shopify-section-template--15787492933770__hero-split" class="shopify-section">
-
-
-        <link href="/cdn/shop/t/11/assets/hero-split.css" rel="stylesheet" type="text/css" media="all">
+        <link rel="stylesheet" type="text/css" media="all" href="/cdn/shop/t/11/assets/hero-split.css">
 
         <div id="hero-split-section" class="page-boundary">
             <div class="hero-container">
@@ -2206,17 +2181,14 @@
 
 
                     <div class="wallpaper">
-                        <img src="https://cdn.shopify.com/s/files/1/0815/3907/2306/files/demo16-slide1_2000x_cfb20f6b-5725-4d0c-8624-a5818704dc9c.png?v=1695739091&amp;width=2680"
-                             alt=""
-                             srcset="https://cdn.shopify.com/s/files/1/0815/3907/2306/files/demo16-slide1_2000x_cfb20f6b-5725-4d0c-8624-a5818704dc9c.png?v=1695739091&amp;width=352 352w, https://cdn.shopify.com/s/files/1/0815/3907/2306/files/demo16-slide1_2000x_cfb20f6b-5725-4d0c-8624-a5818704dc9c.png?v=1695739091&amp;width=832 832w, https://cdn.shopify.com/s/files/1/0815/3907/2306/files/demo16-slide1_2000x_cfb20f6b-5725-4d0c-8624-a5818704dc9c.png?v=1695739091&amp;width=1200 1200w, https://cdn.shopify.com/s/files/1/0815/3907/2306/files/demo16-slide1_2000x_cfb20f6b-5725-4d0c-8624-a5818704dc9c.png?v=1695739091&amp;width=1920 1920w, https://cdn.shopify.com/s/files/1/0815/3907/2306/files/demo16-slide1_2000x_cfb20f6b-5725-4d0c-8624-a5818704dc9c.png?v=1695739091&amp;width=2680 2680w"
-                             width="2680" height="640" loading="eager" class="mx-auto">
+                        <img alt="" width="2680" height="640" loading="eager" class="mx-auto"
+                             src="https://cdn.shopify.com/s/files/1/0815/3907/2306/files/demo16-slide1_2000x_cfb20f6b-5725-4d0c-8624-a5818704dc9c.png?v=1695739091&amp;width=2680"
+                             srcset="https://cdn.shopify.com/s/files/1/0815/3907/2306/files/demo16-slide1_2000x_cfb20f6b-5725-4d0c-8624-a5818704dc9c.png?v=1695739091&amp;width=352 352w, https://cdn.shopify.com/s/files/1/0815/3907/2306/files/demo16-slide1_2000x_cfb20f6b-5725-4d0c-8624-a5818704dc9c.png?v=1695739091&amp;width=832 832w, https://cdn.shopify.com/s/files/1/0815/3907/2306/files/demo16-slide1_2000x_cfb20f6b-5725-4d0c-8624-a5818704dc9c.png?v=1695739091&amp;width=1200 1200w, https://cdn.shopify.com/s/files/1/0815/3907/2306/files/demo16-slide1_2000x_cfb20f6b-5725-4d0c-8624-a5818704dc9c.png?v=1695739091&amp;width=1920 1920w, https://cdn.shopify.com/s/files/1/0815/3907/2306/files/demo16-slide1_2000x_cfb20f6b-5725-4d0c-8624-a5818704dc9c.png?v=1695739091&amp;width=2680 2680w">
                     </div>
 
                 </section>
             </div>
         </div>
-
-
     </div>
     <div id="shopify-section-template--15787492933770__promotional-banner" class="shopify-section">
 
@@ -2269,8 +2241,8 @@
                 <div class="section-content">
 
                     <div class="tagline">
-                        <img src="/cdn/shop/files/Star_filled.png?height=20&amp;v=1683532604" width="20" height="20"
-                             loading="lazy">
+                        <img width="20" height="20" loading="lazy" class="lazyload"
+                             data-src="/cdn/shop/files/Star_filled.png?height=20&amp;v=1683532604">
 
                         <p class="banner-item__content text-left"><strong>75,000+</strong> 5-star reviews worldwide</p>
                     </div>
@@ -2278,16 +2250,16 @@
 
                     <ul class="logos">
                         <li class="logo">
-                            <img src="/cdn/shop/files/Google_2015_logo_1.webp?height=23&amp;v=1689840521" width="auto"
-                                 height="23" loading="lazy">
+                            <img width="auto" height="23" loading="lazy" class="lazyload"
+                                 data-src="/cdn/shop/files/Google_2015_logo_1.webp?height=23&amp;v=1689840521">
                         </li>
                         <li class="logo">
-                            <img src="/cdn/shop/files/amazon_logo.webp?height=23&amp;v=1689840520" width="auto"
-                                 height="23" loading="lazy">
+                            <img width="auto" height="23" loading="lazy" class="lazyload"
+                                 data-src="/cdn/shop/files/amazon_logo.webp?height=23&amp;v=1689840520">
                         </li>
                         <li class="logo">
-                            <img src="/cdn/shop/files/yotpo_logo.webp?height=23&amp;v=1689840521" width="auto"
-                                 height="23" loading="lazy">
+                            <img width="auto" height="23" loading="lazy" class="lazyload"
+                                 data-src="/cdn/shop/files/yotpo_logo.webp?height=23&amp;v=1689840521">
                         </li>
                     </ul>
                 </div>
@@ -2298,7 +2270,7 @@
     </div>
     <div id="shopify-section-template--15787492933770__winning-awards" class="shopify-section">
 
-        <link is="delay-stylesheet" href="/cdn/shop/t/11/assets/award-carousel.css?v=129998449819912879961690273877">
+        <link rel="stylesheet" href="/cdn/shop/t/11/assets/award-carousel.css?v=129998449819912879961690273877">
 
         <section id="template--15787492933770__winning-awards" class="award-carousel section-container sm md:lg">
             <div class="section-chassis page-boundary">
@@ -2493,8 +2465,8 @@
                 </div>
             </div>
 
-            <script is="delay-script"
-                    url="/cdn/shop/t/11/assets/award-carousel.js?v=67373144125090953021689848815"></script>
+            <script is="delay-script" url="/cdn/shop/t/11/assets/award-carousel.js?v=67373144125090953021689848815"
+                    phase="interactive"></script>
         </section>
 
 
@@ -3358,15 +3330,15 @@
                                                     BEST VALUE</p>
 
                                             </div>
-                                            <img class="-mt-[7px] h-max" width="55px"
-                                                 src="/cdn/shop/files/mattres-height-10.png?v=1684744170" alt="">
+                                            <img class="-mt-[7px] h-max lazyload" width="55px" alt=""
+                                                 data-src="/cdn/shop/files/mattres-height-10.png?v=1684744170">
                                         </div>
 
                                         <div class="mb-6 h-[185px] px-4">
                                             <img style="aspect-ratio: 2576 / 1752;"
-                                                 class="mx-auto h-full object-contain"
-                                                 src="/cdn/shop/files/layer1.png?v=1669280604&amp;width=800" width="350"
-                                                 height="179" loading="lazy">
+                                                 class="mx-auto h-full object-contain lazyload" width="350" height="179"
+                                                 loading="lazy"
+                                                 data-src="/cdn/shop/files/layer1.png?v=1669280604&amp;width=800">
                                         </div>
 
                                         <h3 class="px-4 mb-2 text-[24px] font-semibold font-inter">Ellamart
@@ -3545,15 +3517,15 @@
                                                     Biggest deal</p>
 
                                             </div>
-                                            <img class="-mt-[7px] h-max" width="55px"
-                                                 src="/cdn/shop/files/mattres-height-13-v2.png?v=1684829944" alt="">
+                                            <img class="-mt-[7px] h-max lazyload" width="55px" alt=""
+                                                 data-src="/cdn/shop/files/mattres-height-13-v2.png?v=1684829944">
                                         </div>
 
                                         <div class="mb-6 h-[185px] px-4">
                                             <img style="aspect-ratio: 2576 / 1752;"
-                                                 class="mx-auto h-full object-contain"
-                                                 src="/cdn/shop/files/MicrosoftTeams-image_16.png?v=1689679528&amp;width=800"
-                                                 width="350" height="179" loading="lazy">
+                                                 class="mx-auto h-full object-contain lazyload" width="350" height="179"
+                                                 loading="lazy"
+                                                 data-src="/cdn/shop/files/MicrosoftTeams-image_16.png?v=1689679528&amp;width=800">
                                         </div>
 
                                         <h3 class="px-4 mb-2 text-[24px] font-semibold font-inter">Ellamart Hybrid
@@ -3724,15 +3696,15 @@
                                                     PREMIUM OPTION</p>
 
                                             </div>
-                                            <img class="-mt-[7px] h-max" width="55px"
-                                                 src="/cdn/shop/files/mattres-height-13-v2.png?v=1684829944" alt="">
+                                            <img class="-mt-[7px] h-max lazyload" width="55px" alt=""
+                                                 data-src="/cdn/shop/files/mattres-height-13-v2.png?v=1684829944">
                                         </div>
 
                                         <div class="mb-6 h-[185px] px-4">
                                             <img style="aspect-ratio: 2576 / 1752;"
-                                                 class="mx-auto h-full object-contain"
-                                                 src="/cdn/shop/files/Shift_comparision_image_corrected.png?v=1685098837&amp;width=800"
-                                                 width="350" height="179" loading="lazy">
+                                                 class="mx-auto h-full object-contain lazyload" width="350" height="179"
+                                                 loading="lazy"
+                                                 data-src="/cdn/shop/files/Shift_comparision_image_corrected.png?v=1685098837&amp;width=800">
                                         </div>
 
                                         <h3 class="px-4 mb-2 text-[24px] font-semibold font-inter">Ellamart Shift
@@ -4593,7 +4565,7 @@
     </div>
     <div id="shopify-section-template--15787492933770__media-publication" class="shopify-section">
 
-        <link is="delay-stylesheet" href="/cdn/shop/t/11/assets/award-carousel.css?v=129998449819912879961690273877">
+        <link rel="stylesheet" href="/cdn/shop/t/11/assets/award-carousel.css?v=129998449819912879961690273877">
 
         <section id="template--15787492933770__media-publication" class="award-carousel section-container sm md:lg">
             <div class="section-chassis page-boundary">
@@ -4756,8 +4728,8 @@
                 </div>
             </div>
 
-            <script is="delay-script"
-                    url="/cdn/shop/t/11/assets/award-carousel.js?v=67373144125090953021689848815"></script>
+            <script is="delay-script" url="/cdn/shop/t/11/assets/award-carousel.js?v=67373144125090953021689848815"
+                    phase="interactive"></script>
         </section>
 
 
@@ -4978,7 +4950,7 @@
     </div>
     <div id="shopify-section-template--15787492933770__media-with-text-banners"
          class="shopify-section media-with-text-banners-wrapper">
-        <link is="delay-stylesheet"
+        <link rel="stylesheet"
               href="/cdn/shop/t/11/assets/media-with-text-banners.css?v=138713714491422733301687251082">
 
         <div id="mediaWithTextBannersSection" class="banners-container page-boundary">
@@ -4990,7 +4962,8 @@
                            poster="/cdn/shop/files/preview_images/fddd92c316544b6ca7728a2bc8f1ff34.thumbnail.0000000000_1x.jpg?v=1684749173">
                         <source src="https://cdn.shopify.com/videos/c/vp/fddd92c316544b6ca7728a2bc8f1ff34/fddd92c316544b6ca7728a2bc8f1ff34.HD-720p-4.5Mbps-14823563.mp4"
                                 type="video/mp4">
-                        <img src="/cdn/shop/files/preview_images/fddd92c316544b6ca7728a2bc8f1ff34.thumbnail.0000000000_1x.jpg?v=1684749173">
+                        <img class="lazyload"
+                             data-src="/cdn/shop/files/preview_images/fddd92c316544b6ca7728a2bc8f1ff34.thumbnail.0000000000_1x.jpg?v=1684749173">
                     </video>
 
 
@@ -5011,7 +4984,8 @@
                            poster="/cdn/shop/files/preview_images/3f788e6602a34134868ee4ca7513692e.thumbnail.0000000000_1x.jpg?v=1684749242">
                         <source src="https://cdn.shopify.com/videos/c/vp/3f788e6602a34134868ee4ca7513692e/3f788e6602a34134868ee4ca7513692e.HD-720p-2.1Mbps-14823605.mp4"
                                 type="video/mp4">
-                        <img src="/cdn/shop/files/preview_images/3f788e6602a34134868ee4ca7513692e.thumbnail.0000000000_1x.jpg?v=1684749242">
+                        <img class="lazyload"
+                             data-src="/cdn/shop/files/preview_images/3f788e6602a34134868ee4ca7513692e.thumbnail.0000000000_1x.jpg?v=1684749242">
                     </video>
 
 
@@ -5032,7 +5006,8 @@
                            poster="/cdn/shop/files/preview_images/a9c96c1f6f424f30abb43de27bea59ad.thumbnail.0000000000_1x.jpg?v=1684749251">
                         <source src="https://cdn.shopify.com/videos/c/vp/a9c96c1f6f424f30abb43de27bea59ad/a9c96c1f6f424f30abb43de27bea59ad.SD-480p-0.9Mbps-14823608.mp4"
                                 type="video/mp4">
-                        <img src="/cdn/shop/files/preview_images/a9c96c1f6f424f30abb43de27bea59ad.thumbnail.0000000000_1x.jpg?v=1684749251">
+                        <img class="lazyload"
+                             data-src="/cdn/shop/files/preview_images/a9c96c1f6f424f30abb43de27bea59ad.thumbnail.0000000000_1x.jpg?v=1684749251">
                     </video>
 
 
@@ -5051,7 +5026,7 @@
     </div>
     <div id="shopify-section-template--15787492933770__social-proof" class="shopify-section">
 
-        <link is="delay-stylesheet" href="/cdn/shop/t/11/assets/social-proof.css?v=149700403883393653591687251078">
+        <link rel="stylesheet" href="/cdn/shop/t/11/assets/social-proof.css?v=149700403883393653591687251078">
 
         <section id="social-proof-section" class="section-container bg-cultured">
             <div class="section-chassis page-boundary">
@@ -5364,7 +5339,7 @@
     </div>
     <div id="shopify-section-template--15787492933770__featured-faqs" class="shopify-section">
 
-        <link is="delay-stylesheet" href="/cdn/shop/t/11/assets/featured-faqs.css?v=60717407356205239741687251076">
+        <link rel="stylesheet" href="/cdn/shop/t/11/assets/featured-faqs.css?v=60717407356205239741687251076">
 
         <section id="featured-faqs-section" class="section-container spacing-xl">
             <div class="section-chassis page-boundary">
@@ -5481,15 +5456,15 @@
 
                         <li>
                             <a href="https://www.facebook.com/EmmaSleepCanada" rel="nofollow" target="_blank">
-                                <img class="img-fluid footer-social-icons"
-                                     src="/cdn/shop/files/facebook-logo_8f2b0ed1-7899-4433-857a-a166ff506003.png?v=1642756640">
+                                <img class="img-fluid footer-social-icons lazyload"
+                                     data-src="/cdn/shop/files/facebook-logo_8f2b0ed1-7899-4433-857a-a166ff506003.png?v=1642756640">
                             </a>
                         </li>
 
                         <li>
                             <a href="https://www.instagram.com/emmasleep.canada/" rel="nofollow" target="_blank">
-                                <img class="img-fluid footer-social-icons"
-                                     src="/cdn/shop/files/instagram-logo_58b6edb5-bf2d-4652-9c22-87612862c7c6.png?v=1642756634">
+                                <img class="img-fluid footer-social-icons lazyload"
+                                     data-src="/cdn/shop/files/instagram-logo_58b6edb5-bf2d-4652-9c22-87612862c7c6.png?v=1642756634">
                             </a>
                         </li>
 
@@ -5717,8 +5692,6 @@
             </div>
         </div>
     </footer>
-
-
 </div>
 
 <ul hidden="">
@@ -5730,20 +5703,26 @@
 </ul>
 
 
-<script is="delay-script"
-        url="/cdn/shop/t/11/assets/jquery.ba-throttle-debounce.js?v=103250179697527314711688024714"></script>
-<script is="delay-script" url="/cdn/shop/t/11/assets/jquery.beefup.min.js?v=82952605651928686161688024714"></script>
-<script is="delay-script" url="/cdn/shop/t/11/assets/jquery.modal.min.js?v=15875380166552750701688024716"></script>
-<script is="delay-script" url="/cdn/shop/t/11/assets/jquery.fancybox.min.js?v=102984942719613846721688024715"></script>
-<script is="delay-script" url="/cdn/shop/t/11/assets/select2.min.js?v=49960443923896795481688024721"></script>
-<script is="delay-script" url="/cdn/shop/t/11/assets/splide.min.js?v=15323724465567850331688024725"></script>
-<script is="delay-script" url="/cdn/shop/t/11/assets/toastr.min.js?v=32063384496253430001688024728"></script>
-<script is="delay-script" url="/cdn/shop/t/11/assets/swiper-bundle.min.js?v=30986975797822707101688024726"></script>
-<script is="delay-script" url="/cdn/shop/t/11/assets/popper.min.js?v=106254159189482773611688024720"></script>
+<script is="delay-script" url="/cdn/shop/t/11/assets/jquery.ba-throttle-debounce.js?v=103250179697527314711688024714"
+        phase="interactive"></script>
+<script is="delay-script" url="/cdn/shop/t/11/assets/jquery.beefup.min.js?v=82952605651928686161688024714"
+        phase="interactive"></script>
+<script is="delay-script" url="/cdn/shop/t/11/assets/jquery.modal.min.js?v=15875380166552750701688024716"
+        phase="interactive"></script>
+<script is="delay-script" url="/cdn/shop/t/11/assets/jquery.fancybox.min.js?v=102984942719613846721688024715"
+        phase="interactive"></script>
+<script is="delay-script" url="/cdn/shop/t/11/assets/select2.min.js?v=49960443923896795481688024721"
+        phase="interactive"></script>
+<script is="delay-script" url="/cdn/shop/t/11/assets/toastr.min.js?v=32063384496253430001688024728"
+        phase="interactive"></script>
+<script is="delay-script" url="/cdn/shop/t/11/assets/swiper-bundle.min.js?v=30986975797822707101688024726"
+        phase="interactive"></script>
+<script is="delay-script" url="/cdn/shop/t/11/assets/popper.min.js?v=106254159189482773611688024720"
+        phase="interactive"></script>
 <script is="delay-script" phase="interactive"
         url="/cdn/shop/t/11/assets/tippy-bundle.umd.min.js?v=106717848408361717631688024727"></script>
-<script is="delay-script" url="/cdn/shop/t/11/assets/mediabox.min.js?v=150177701041689025671688024719"></script>
-<script is="delay-script" url="/cdn/shop/t/11/assets/lazysizes.min.js?v=155223123402716617051647849393"></script>
+<script is="delay-script" url="/cdn/shop/t/11/assets/mediabox.min.js?v=150177701041689025671688024719"
+        phase="interactive"></script>
 
 <link is="delay-stylesheet" href="/cdn/shop/t/11/assets/jquery.modal.min.css?v=64857397979575196151688024716">
 <link is="delay-stylesheet" href="/cdn/shop/t/11/assets/jquery.fancybox.css?v=159808164371632363711688024715">
@@ -5753,7 +5732,8 @@
 <link is="delay-stylesheet" href="/cdn/shop/t/11/assets/swiper-bundle.min.css?v=183092761113033764571688024725">
 <link is="delay-stylesheet" href="/cdn/shop/t/11/assets/mediabox.min.css?v=178153156364416133851688024719">
 
-<script is="delay-script" url="/cdn/shop/t/11/assets/modernizr.min.js?v=21391054748206432451647849408"></script>
+<script is="delay-script" url="/cdn/shop/t/11/assets/modernizr.min.js?v=21391054748206432451647849408"
+        phase="interactive"></script>
 
 
 <script is="delay-script" phase="interactive" url="https://www.googleoptimize.com/optimize.js?id=OPT-KNFWBCL"></script>
@@ -5833,7 +5813,7 @@
 
 
 <!-- Start Weglot Script -->
-<script is="delay-script" url="https://cdn.weglot.com/weglot.min.js"></script>
+<script is="delay-script" url="https://cdn.weglot.com/weglot.min.js" phase="interactive"></script>
 <script id="has-script-tags" is="delay-script" phase="interactive">
     Weglot.initialize({api_key: 'wg_e352fa8c030a877a802a404aac1074d00'});
 </script>
@@ -5853,7 +5833,7 @@
         y.parentNode.insertBefore(t, y);
     })(window, document, 'clarity', 'script', 'd60mjcc2fl');
 </script>
-<script defer="true">
+<script is="delay-script" phase="interactive">
     (function (i, s, o, g, r, a, m) {
         i["abtiming"] = 1 * new Date();
         a = s.createElement(o),
@@ -5863,7 +5843,7 @@
         m.parentNode.insertBefore(a, m)
     })(window, document, "script", "//try.abtasty.com/b98579b87d8565047076037f703e1727.js");
 </script>
-<script defer="true">
+<script is="delay-script" phase="interactive">
     if (typeof ometria == 'undefined') window.ometria = {};
     ometria.raw_data = {
         template: "index",
@@ -5898,21 +5878,18 @@
 </script>
 
 
-<link is="delay-stylesheet" href="/cdn/shop/t/11/assets/new-splide.css?v=100926187677075264311687357027">
+<link rel="stylesheet" href="/cdn/shop/t/11/assets/new-splide.css?v=100926187677075264311687357027">
 
 
-<script is="delay-script" url="/cdn/shop/t/11/assets/global.js?v=31874650481387444961694160502"></script>
-<script is="delay-script" url="/cdn/shop/t/11/assets/variant-selects.js?v=142778093263602674021694159162"></script>
-
-<script is="delay-script" url="/cdn/shop/t/11/assets/helpers.js?v=27854430373278452491688024718"></script>
+<script is="delay-script" url="/cdn/shop/t/11/assets/variant-selects.js?v=142778093263602674021694159162"
+        phase="interactive"></script>
 
 
 <script is="delay-script" phase="interactive"
         url="/cdn/shop/t/11/assets/quantity-adjuster.js?v=63438535502664631441678797214"></script>
 <script is="delay-script" phase="interactive"
         url="/cdn/shop/t/11/assets/variant-selector.js?v=148380756409455986861666688389"></script>
-<script is="delay-script" phase="interactive"
-        url="/cdn/shop/t/11/assets/layout-scripts.js?v=81574266922274938051691121534"></script>
+
 
 <script defer="true">
     window.routes = {
@@ -5935,13 +5912,17 @@
     }
 </style>
 
-<link is="delay-stylesheet" href="/cdn/shop/t/11/assets/cart-drawer.css?v=111562508632001881001694591557">
-<link is="delay-stylesheet" href="/cdn/shop/t/11/assets/component-cart.css?v=61086454150987525971666688394">
+<link rel="stylesheet" href="/cdn/shop/t/11/assets/cart-drawer.css?v=111562508632001881001694591557">
+<link rel="stylesheet" href="/cdn/shop/t/11/assets/component-cart.css?v=61086454150987525971666688394">
 
-<script is="delay-script" url="/cdn/shop/t/11/assets/cart.js?v=102393167721669557241694159418"></script>
-<script is="delay-script" url="/cdn/shop/t/11/assets/cart-drawer.js?v=144714812610118039071678877879"></script>
-<script is="delay-script" url="/cdn/shop/t/11/assets/cart-item.js?v=18674064785282689951694591558"></script>
-<script is="delay-script" url="/cdn/shop/t/11/assets/cart-upsell.js?v=179965737164722341261684224838"></script>
+<script is="delay-script" phase="interactive"
+        url="/cdn/shop/t/11/assets/cart.js?v=102393167721669557241694159418"></script>
+<script is="delay-script" phase="interactive"
+        url="/cdn/shop/t/11/assets/cart-drawer.js?v=144714812610118039071678877879"></script>
+<script is="delay-script" phase="interactive"
+        url="/cdn/shop/t/11/assets/cart-item.js?v=18674064785282689951694591558"></script>
+<script is="delay-script" phase="interactive"
+        url="/cdn/shop/t/11/assets/cart-upsell.js?v=179965737164722341261684224838"></script>
 
 <cart-drawer id="CartDrawer" class="">
     <div id="CartDrawer-Overlay" class="cart-drawer__overlay"></div>
@@ -5975,9 +5956,9 @@
                     <p class="text-comet font-light">Your cart is empty</p>
 
                     <div class="cart-drawer-empty__picture">
-                        <img src="/cdn/shop/files/Group_34574.png?v=1666153282&amp;width=140" alt=""
-                             srcset="/cdn/shop/files/Group_34574.png?v=1666153282&amp;width=140 140w" width="140"
-                             height="139" loading="lazy">
+                        <img alt="" width="140" height="139" loading="lazy" class="lazyload"
+                             data-src="/cdn/shop/files/Group_34574.png?v=1666153282&amp;width=140"
+                             data-srcset="/cdn/shop/files/Group_34574.png?v=1666153282&amp;width=140 140w">
                     </div>
 
                     <p class="paragraph-14 text-center text-comet">
@@ -6001,8 +5982,8 @@
 
                     <div class="discount-badge">SALE</div>
 
-                    <img src="https://cdn.accentuate.io/7741865164938/1689065855520/5_SH.png?v=1689670010174" alt=""
-                         loading="lazy">
+                    <img alt="" loading="lazy" class="lazyload"
+                         data-src="https://cdn.accentuate.io/7741865164938/1689065855520/5_SH.png?v=1689670010174">
                 </a>
 
                 <div class="suggestion-catalog">
@@ -6017,8 +5998,8 @@
                         </div>
 
                         <div class="suggestion-catalog__image">
-                            <img src="https://cdn.accentuate.io/6713689211018/1666175005712/PILLOW_1.webp?v=1687424978015"
-                                 alt="" loading="lazy">
+                            <img alt="" loading="lazy" class="lazyload"
+                                 data-src="https://cdn.accentuate.io/6713689211018/1666175005712/PILLOW_1.webp?v=1687424978015">
                         </div>
 
                     </a>
@@ -6033,8 +6014,8 @@
                         </div>
 
                         <div class="suggestion-catalog__image">
-                            <img src="https://cdn.accentuate.io/6714893467786/1669043113339/emma-upholstered-bed.webp?v=1687424963124"
-                                 alt="" loading="lazy">
+                            <img alt="" loading="lazy" class="lazyload"
+                                 data-src="https://cdn.accentuate.io/6714893467786/1669043113339/emma-upholstered-bed.webp?v=1687424963124">
                         </div>
 
                     </a>
@@ -6044,18 +6025,18 @@
 
                 <div class="cart-risk-reversal">
                     <div class="cart-risk-reversal__item">
-                        <img src="//cdn.shopify.com/s/files/1/0592/8570/0771/files/free_delivery_blue_1.png?v=1659266469&amp;width=60"
-                             width="auto" height="auto" loading="lazy">
+                        <img width="auto" height="auto" loading="lazy" class="lazyload"
+                             data-src="//cdn.shopify.com/s/files/1/0592/8570/0771/files/free_delivery_blue_1.png?v=1659266469&amp;width=60">
                         <p class="paragraph-10 font-semibold text-center">Free Shipping</p>
                     </div>
                     <div class="cart-risk-reversal__item">
-                        <img src="//cdn.shopify.com/s/files/1/0592/8570/0771/files/365_night_trial_blue_1.png?v=1659266469&amp;width=60"
-                             width="auto" height="auto" loading="lazy">
+                        <img width="auto" height="auto" loading="lazy" class="lazyload"
+                             data-src="//cdn.shopify.com/s/files/1/0592/8570/0771/files/365_night_trial_blue_1.png?v=1659266469&amp;width=60">
                         <p class="paragraph-10 font-semibold text-center">365-Night Money-Back Guarantee</p>
                     </div>
                     <div class="cart-risk-reversal__item">
-                        <img src="//cdn.shopify.com/s/files/1/0592/8570/0771/files/warranty_blue_1_1.png?v=1659266469&amp;width=60"
-                             width="auto" height="auto" loading="lazy">
+                        <img width="auto" height="auto" loading="lazy" class="lazyload"
+                             data-src="//cdn.shopify.com/s/files/1/0592/8570/0771/files/warranty_blue_1_1.png?v=1659266469&amp;width=60">
                         <p class="paragraph-10 font-semibold text-center">10-Year Warranty</p>
                     </div>
                 </div>
@@ -6066,8 +6047,8 @@
                 <div data-ship-next="Free Shipping! Orders shipped out the next business day."
                      data-ship-now="Free Shipping! Orders before 2PM ET will be shipped out today." class="cart-banner">
                     <div class="cart-banner__free-shipping">
-                        <img src="//cdn.shopify.com/s/files/1/0592/8570/0771/files/free_delivery_blue.png?v=1664864442"
-                             width="28" height="auto" loading="lazy">
+                        <img width="28" height="auto" loading="lazy" class="lazyload"
+                             data-src="//cdn.shopify.com/s/files/1/0592/8570/0771/files/free_delivery_blue.png?v=1664864442">
                     </div>
                     <p class="cart-banner__content"></p>
                 </div>
@@ -6086,10 +6067,9 @@
 
                                     <a class="cart-item-media"
                                        href="/products/emma-hybrid-comfort?variant=43026954223754">
-                                        <img src="/cdn/shop/files/1.png?crop=center&amp;height=80&amp;v=1689072809&amp;width=120"
-                                             alt=""
-                                             srcset="/cdn/shop/files/1.png?crop=center&amp;height=80&amp;v=1689072809&amp;width=120 120w"
-                                             width="120" height="80" loading="lazy">
+                                        <img alt="" width="120" height="80" loading="lazy" class="lazyload"
+                                             data-src="/cdn/shop/files/1.png?crop=center&amp;height=80&amp;v=1689072809&amp;width=120"
+                                             data-srcset="/cdn/shop/files/1.png?crop=center&amp;height=80&amp;v=1689072809&amp;width=120 120w">
                                     </a>
                                     <div class="cart-item-details">
                                         <a href="/products/emma-hybrid-comfort?variant=43026954223754"
@@ -6200,10 +6180,10 @@
                                     <cart-upsell-item class="upsell-item" :productid="6713689211018">
                                         <div class="upsell-item__media">
 
-                                            <img src="/cdn/shop/products/PILLOW_3.jpg?v=1666710330&amp;width=70"
-                                                 alt="Original Adjustable Foam Pillow"
-                                                 srcset="/cdn/shop/products/PILLOW_3.jpg?v=1666710330&amp;width=70 70w"
-                                                 width="70" height="53" loading="lazy">
+                                            <img alt="Original Adjustable Foam Pillow" width="70" height="53"
+                                                 loading="lazy" class="lazyload"
+                                                 data-src="/cdn/shop/products/PILLOW_3.jpg?v=1666710330&amp;width=70"
+                                                 data-srcset="/cdn/shop/products/PILLOW_3.jpg?v=1666710330&amp;width=70 70w">
                                         </div>
                                         <div class="upsell-item__details">
                                             <a href="/products/emma-foam-pillow"
@@ -6237,10 +6217,10 @@
                                     <cart-upsell-item class="upsell-item" :productid="6714891567242">
                                         <div class="upsell-item__media">
 
-                                            <img src="/cdn/shop/products/Ellamart-Protector-3-scaled.jpg?v=1653380411&amp;width=70"
-                                                 alt="Breathable Mattress Protector"
-                                                 srcset="/cdn/shop/products/Ellamart-Protector-3-scaled.jpg?v=1653380411&amp;width=70 70w"
-                                                 width="70" height="53" loading="lazy">
+                                            <img alt="Breathable Mattress Protector" width="70" height="53"
+                                                 loading="lazy" class="lazyload"
+                                                 data-src="/cdn/shop/products/Ellamart-Protector-3-scaled.jpg?v=1653380411&amp;width=70"
+                                                 data-srcset="/cdn/shop/products/Ellamart-Protector-3-scaled.jpg?v=1653380411&amp;width=70 70w">
                                         </div>
                                         <div class="upsell-item__details">
                                             <a href="/products/emma-mattress-protector"
@@ -6274,10 +6254,10 @@
                                     <cart-upsell-item class="upsell-item" :productid="6714893467786">
                                         <div class="upsell-item__media">
 
-                                            <img src="/cdn/shop/products/Boxbedv21.png?v=1667379330&amp;width=70"
-                                                 alt="Upholstered Bed Frame"
-                                                 srcset="/cdn/shop/products/Boxbedv21.png?v=1667379330&amp;width=70 70w"
-                                                 width="70" height="53" loading="lazy">
+                                            <img alt="Upholstered Bed Frame" width="70" height="53" loading="lazy"
+                                                 class="lazyload"
+                                                 data-src="/cdn/shop/products/Boxbedv21.png?v=1667379330&amp;width=70"
+                                                 data-srcset="/cdn/shop/products/Boxbedv21.png?v=1667379330&amp;width=70 70w">
                                         </div>
                                         <div class="upsell-item__details">
                                             <a href="/products/emma-bed-frame"
@@ -6311,10 +6291,10 @@
                                     <cart-upsell-item class="upsell-item" :productid="6713686098058">
                                         <div class="upsell-item__media">
 
-                                            <img src="/cdn/shop/products/Resize2.png?v=1678960194&amp;width=70"
-                                                 alt="Ellamart Original Mattress"
-                                                 srcset="/cdn/shop/products/Resize2.png?v=1678960194&amp;width=70 70w"
-                                                 width="70" height="70" loading="lazy">
+                                            <img alt="Ellamart Original Mattress" width="70" height="70" loading="lazy"
+                                                 class="lazyload"
+                                                 data-src="/cdn/shop/products/Resize2.png?v=1678960194&amp;width=70"
+                                                 data-srcset="/cdn/shop/products/Resize2.png?v=1678960194&amp;width=70 70w">
                                         </div>
                                         <div class="upsell-item__details">
                                             <a href="/products/emma-original-mattress"
@@ -6554,7 +6534,8 @@
                         <strong><span class="pro_val">$40.75</span></strong>
                         monthly with
                         <span class="pay_img" style="display: inline-flex">
-    <img src="https://cdn.shopify.com/s/files/1/0562/9873/3706/files/Logo_affirm.png?v=1659502934">
+    <img class="lazyload"
+         data-src="https://cdn.shopify.com/s/files/1/0562/9873/3706/files/Logo_affirm.png?v=1659502934">
   </span>
                         financing <a data-fancybox="" data-src="#pro_step" href="javascript:" class="que">?</a>
                     </button>
@@ -6573,9 +6554,9 @@
                 <ul class="utility-nav">
                     <li class="customer-support utility-nav__item">
                         <div class="customer-support__avatar">
-                            <img src="/cdn/shop/files/checkout-support-avatar.png?v=1666151058&amp;width=30" alt=""
-                                 srcset="/cdn/shop/files/checkout-support-avatar.png?v=1666151058&amp;width=30 30w"
-                                 width="30" height="30" loading="lazy">
+                            <img alt="" width="30" height="30" loading="lazy" class="lazyload"
+                                 data-src="/cdn/shop/files/checkout-support-avatar.png?v=1666151058&amp;width=30"
+                                 data-srcset="/cdn/shop/files/checkout-support-avatar.png?v=1666151058&amp;width=30 30w">
                         </div>
                         <div>
                             <div class="flex items-center gap-3 mb-1">
@@ -6589,15 +6570,13 @@
                                     <p>Chat now</p>
                                 </div>
                                 <div class="utility-nav__item phone">
-                                    <img class="small-icon"
-                                         src="/cdn/shop/t/11/assets/phone.svg?v=99783938302209063731666688389"
-                                         height="8" loading="lazy">
+                                    <img class="small-icon lazyload" height="8" loading="lazy"
+                                         data-src="/cdn/shop/t/11/assets/phone.svg?v=99783938302209063731666688389">
                                     <a href="tel:+18885853662">1-888-585-EMMA</a>
                                 </div>
                                 <div class="email utility-nav__item">
-                                    <img class="small-icon"
-                                         src="/cdn/shop/t/11/assets/support-email.svg?v=173558859086626601531666688392"
-                                         height="8" loading="lazy">
+                                    <img class="small-icon lazyload" height="8" loading="lazy"
+                                         data-src="/cdn/shop/t/11/assets/support-email.svg?v=173558859086626601531666688392">
                                     <a href="mailto:support@emma-sleep.ca">support@emma-sleep.ca</a>
                                 </div>
                             </div>
@@ -6617,8 +6596,8 @@
     <div class="product_step_inner">
         <div class="step_head">
             <h3 class="">Hit the snooze button on payments. </h3>
-            <p class="sub_head"><strong>with</strong> <img loading="lazy" class="model_img"
-                                                           src="https://cdn.shopify.com/s/files/1/0562/9873/3706/files/Logo_affirm.png?v=1659502934">
+            <p class="sub_head"><strong>with</strong> <img loading="lazy" class="model_img lazyload"
+                                                           data-src="https://cdn.shopify.com/s/files/1/0562/9873/3706/files/Logo_affirm.png?v=1659502934">
             </p>
         </div>
 
@@ -6702,8 +6681,8 @@
     <div class="product_step_inner">
         <div class="step_head">
             <h3 class=""> Achetez maintenant, payez plus tard </h3>
-            <p class="sub_head"><strong>avec</strong> <img class="model_img"
-                                                           src="https://cdn.shopify.com/s/files/1/0562/9873/3706/files/paybright.svg">
+            <p class="sub_head"><strong>avec</strong> <img class="model_img lazyload"
+                                                           data-src="https://cdn.shopify.com/s/files/1/0562/9873/3706/files/paybright.svg">
             </p>
         </div>
 
@@ -6730,7 +6709,7 @@
     </div>
 
 </div>
-<link href="/cdn/shop/t/11/assets/store-localization.css?v=63831442359007797311687251079" rel="stylesheet"
+<link href="/cdn/shop/t/11/assets/store-localization.css?v=63831442359007797311687251079" is="delay-stylesheet"
       type="text/css" media="all">
 
 <div id="store-localization-popup">

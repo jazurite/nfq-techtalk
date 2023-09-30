@@ -4567,7 +4567,7 @@
             <div class="banner-item ">
                 <div class="media-wrapper">
 
-                    <video playsinline="playsinline" autoplay="autoplay" loop="loop" muted="muted" preload="metadata" poster="/cdn/shop/files/preview_images/fddd92c316544b6ca7728a2bc8f1ff34.thumbnail.0000000000_1x.jpg?v=1684749173">
+                    <video playsinline="playsinline" autoplay="autoplay" loop="loop" muted="muted" preload="none" poster="/cdn/shop/files/preview_images/fddd92c316544b6ca7728a2bc8f1ff34.thumbnail.0000000000_1x.jpg?v=1684749173">
                         <source src="https://cdn.shopify.com/videos/c/vp/fddd92c316544b6ca7728a2bc8f1ff34/fddd92c316544b6ca7728a2bc8f1ff34.HD-720p-4.5Mbps-14823563.mp4" type="video/mp4">
                         <img src="/cdn/shop/files/preview_images/fddd92c316544b6ca7728a2bc8f1ff34.thumbnail.0000000000_1x.jpg?v=1684749173" loading="lazy">
                     </video>
@@ -4586,7 +4586,7 @@
             <div class="banner-item  is-reversed">
                 <div class="media-wrapper">
 
-                    <video playsinline="playsinline" autoplay="autoplay" loop="loop" muted="muted" preload="metadata" poster="/cdn/shop/files/preview_images/3f788e6602a34134868ee4ca7513692e.thumbnail.0000000000_1x.jpg?v=1684749242">
+                    <video playsinline="playsinline" autoplay="autoplay" loop="loop" muted="muted" preload="none" poster="/cdn/shop/files/preview_images/3f788e6602a34134868ee4ca7513692e.thumbnail.0000000000_1x.jpg?v=1684749242">
                         <source src="https://cdn.shopify.com/videos/c/vp/3f788e6602a34134868ee4ca7513692e/3f788e6602a34134868ee4ca7513692e.HD-720p-2.1Mbps-14823605.mp4" type="video/mp4">
                         <img src="/cdn/shop/files/preview_images/3f788e6602a34134868ee4ca7513692e.thumbnail.0000000000_1x.jpg?v=1684749242" loading="lazy">
                     </video>
@@ -4605,7 +4605,7 @@
             <div class="banner-item ">
                 <div class="media-wrapper">
 
-                    <video playsinline="playsinline" autoplay="autoplay" loop="loop" muted="muted" preload="metadata" poster="/cdn/shop/files/preview_images/a9c96c1f6f424f30abb43de27bea59ad.thumbnail.0000000000_1x.jpg?v=1684749251">
+                    <video playsinline="playsinline" autoplay="autoplay" loop="loop" muted="muted" preload="none" poster="/cdn/shop/files/preview_images/a9c96c1f6f424f30abb43de27bea59ad.thumbnail.0000000000_1x.jpg?v=1684749251">
                         <source src="https://cdn.shopify.com/videos/c/vp/a9c96c1f6f424f30abb43de27bea59ad/a9c96c1f6f424f30abb43de27bea59ad.SD-480p-0.9Mbps-14823608.mp4" type="video/mp4">
                         <img src="/cdn/shop/files/preview_images/a9c96c1f6f424f30abb43de27bea59ad.thumbnail.0000000000_1x.jpg?v=1684749251" loading="lazy">
                     </video>
@@ -5266,12 +5266,9 @@
             event: 'gtm.js',
         });
         var f = d.getElementsByTagName(s)[0],
-            j = d.createElement(s, {
-                is: 'delay-script',
-            }),
+            j = d.createElement(s),
             dl = l != 'dataLayer' ? '&l=' + l : '';
-        j.setAttribute('phase', 'interactive');
-        j.setAttribute('url', 'https://www.googletagmanager.com/gtm.js?id=' + i + dl);
+        j.setAttribute('src', 'https://www.googletagmanager.com/gtm.js?id=' + i + dl);
         f.parentNode.insertBefore(j, f);
     })(window, document, 'script', 'dataLayer', 'GTM-5RJR9WC');
 </script>
@@ -5310,9 +5307,7 @@
             var USI_headID = document.getElementsByTagName('head')[0];
             var USI_installID = document.createElement('script');
             USI_installID.type = 'text/javascript';
-            USI_installID.url = 'https://www.upsellit.com/active/emmasleep.jsp';
-            USI_installID.is = 'delay-script';
-            USI_installID.phase = 'interactive';
+            USI_installID.src = 'https://www.upsellit.com/active/emmasleep.jsp';
             USI_headID.appendChild(USI_installID);
         }
     };
@@ -5346,9 +5341,7 @@
                 (c[a].q = c[a].q || []).push(arguments);
             };
         t = l.createElement(r);
-        t.is = 'delay-script';
-        t.phase = 'interactive';
-        t.url = 'https://www.clarity.ms/tag/' + i;
+        t.src = 'https://www.clarity.ms/tag/' + i;
         y = l.getElementsByTagName(r)[0];
         y.parentNode.insertBefore(t, y);
     })(window, document, 'clarity', 'script', 'd60mjcc2fl');
@@ -6161,6 +6154,7 @@
         </div>
     </div>
 </cookie-consent-bar>
+
 
 
 

@@ -3,7 +3,7 @@
   "version": "0.0.0",
   "license": "MIT",
   "scripts": {
-    "start": "http-server -g -p 8080",
+    "start": "http-server -g -p 8081",
     "dev": "concurrently 'npm:serve:*' --raw",
     "serve:theme": "http-server -g",
     "serve:scss": "gulp watch",

@@ -1,0 +1,1 @@
+{"token":"1c0b4adfa252a988a3fa979a7710c811","note":null,"attributes":{"lang":"en","Invoice Language":"en"},"original_total_price":0,"total_price":0,"total_discount":0,"total_weight":0.0,"item_count":0,"items":[],"requires_shipping":false,"currency":"CAD","items_subtotal_price":0,"cart_level_discount_applications":[]}

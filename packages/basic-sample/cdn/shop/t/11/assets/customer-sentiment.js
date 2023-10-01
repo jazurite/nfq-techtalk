@@ -1,4 +1,4 @@
-$(document).ready(function () {
+$("#customer-sentiment-section").ready(function () {
   new Splide('#customer-sentiment-section .splide', {
     autoWidth: true,
     padding: { right: '5rem' },

@@ -1,7 +1,7 @@
-$(document).ready(function () {
+$("#product-catalog-section").ready(async function () {
   new Splide('#product-catalog-section .splide', {
     gap: '8px',
-    padding: { right: '50' },
+    padding: {right: '50'},
     autoWidth: true,
     mediaQuery: 'min',
     arrows: false,
@@ -15,4 +15,4 @@ $(document).ready(function () {
       },
     },
   }).mount();
-})
+});

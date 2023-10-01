@@ -1,51 +1,36 @@
-/** Shopify CDN: Minification failed
-
-Line 16:0 Transforming class syntax to the configured target environment ("es5") is not supported yet
-Line 22:13 Transforming object literal extensions to the configured target environment ("es5") is not supported yet
-Line 25:4 Transforming const to the configured target environment ("es5") is not supported yet
-Line 25:10 Transforming destructuring to the configured target environment ("es5") is not supported yet
-Line 34:8 Transforming object literal extensions to the configured target environment ("es5") is not supported yet
-Line 35:4 Transforming const to the configured target environment ("es5") is not supported yet
-Line 35:10 Transforming destructuring to the configured target environment ("es5") is not supported yet
-Line 38:4 Transforming const to the configured target environment ("es5") is not supported yet
-Line 42:4 Transforming const to the configured target environment ("es5") is not supported yet
-Line 47:15 Transforming object literal extensions to the configured target environment ("es5") is not supported yet
-... and 2 more hidden warnings
-
-**/
 class LoadingOverlay extends CustomElement {
-  props = {
-    type: "spinner",
-    center: false,
-  }
-
-  beforeMount() {
-    super.beforeMount();
-
-    const { center } = this.props
-
-    if (center) {
-      this.$el.addClass('is-center')
+    props = {
+        type: "spinner",
+        center: false,
     }
 
-    this.hide()
-  }
+    beforeMount() {
+        super.beforeMount();
 
-  render() {
-    const { type } = this.props
+        const {center} = this.props
+
+        if (center) {
+            this.$el.addClass('is-center')
+        }
+    }
+    connectedCallback() {
+        this.render()
+    }
+    render() {
+        const {type} = this.props
 
 
-    const allTypes = {
-      'spinner': this.renderSpinner()
+        const allTypes = {
+            'spinner': this.renderSpinner()
+        }
+
+        const template = allTypes[type || 'spinner']
+
+        this.$el.html(template)
     }
 
-    const template = allTypes[type || 'spinner']
-
-    this.$el.html(template)
-  }
-
-  renderSpinner() {
-    return `
+    renderSpinner() {
+        return `
       <svg
         aria-hidden="true" focusable="false" role="presentation" class="spinner" viewBox="0 0 66 66"
         xmlns="http://www.w3.org/2000/svg"
@@ -53,15 +38,15 @@ class LoadingOverlay extends CustomElement {
         <circle class="path" fill="none" stroke-width="6" cx="33" cy="33" r="30"></circle>
       </svg>
     `
-  }
+    }
 
-  show() {
-    this.$el.removeClass('hidden')
-  }
+    show() {
+        this.$el.removeClass('hidden')
+    }
 
-  hide() {
-    this.$el.addClass('hidden')
-  }
+    hide() {
+        this.$el.addClass('hidden')
+    }
 }
 
 customElements.define("loading-overlay", LoadingOverlay);

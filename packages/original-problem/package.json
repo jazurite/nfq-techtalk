@@ -3,7 +3,7 @@
   "version": "0.0.0",
   "license": "MIT",
   "scripts": {
-    "serve:theme": "http-server -g"
+    "serve:theme": "http-server -g -p 8079"
   },
   "private": true
 }

@@ -2,21 +2,21 @@
 <html class="no-js" lang="en">
 <head>
     <script src="/cdn/shop/files/unpkg.com__ungap_custom-elements_1.2.0_min.js?v=14575434054564561414"
-            type="text/javascript" defer=""></script>
+            type="text/javascript" defer></script>
 
-    <script defer="" src="/cdn/shop/t/11/assets/delay-resource.js?v=77336820692469244571690273878"></script>
-    <script defer="" src="/cdn/shop/files/first-interactive.min.js?v=632418561529047290"></script>
-    <script defer="" src="/cdn/shop/files/jquery-3.6.0.min.js?v=832450138385343479"></script>
+    <script defer src="/cdn/shop/t/11/assets/delay-resource.js?v=77336820692469244571690273878"></script>
+    <script defer src="/cdn/shop/files/first-interactive.min.js?v=632418561529047290"></script>
+    <script defer src="/cdn/shop/files/jquery-3.6.0.min.js?v=832450138385343479"></script>
 
-    <script defer="" src="/cdn/shop/t/11/assets/custom-elements.js?v=63441368354317747581666688395"></script>
-    <script defer="" src="/cdn/shop/t/11/assets/loading-overlay.js?v=165644621593570602981666688387"></script>
+    <script defer src="/cdn/shop/t/11/assets/custom-elements.js?v=63441368354317747581666688395"></script>
+    <script defer src="/cdn/shop/t/11/assets/loading-overlay.js?v=165644621593570602981666688387"></script>
 
-    <script defer="" src="/cdn/shop/t/11/assets/global.js?v=31874650481387444961694160502"></script>
-    <script defer="" src="/cdn/shop/t/11/assets/lazysizes.min.js?v=155223123402716617051647849393"></script>
-    <script defer="" src="/cdn/shop/t/11/assets/layout-scripts.js?v=81574266922274938051691121534"></script>
-    <script defer="" src="/cdn/shop/t/11/assets/helpers.js?v=27854430373278452491688024718"></script>
-    <script defer="" src="/cdn/shop/t/11/assets/splide.min.js?v=15323724465567850331688024725"></script>
-    <script defer="" src="/cdn/shop/t/11/assets/mediabox.min.js?v=150177701041689025671688024719"></script>
+    <script defer src="/cdn/shop/t/11/assets/global.js?v=31874650481387444961694160502"></script>
+    <script defer src="/cdn/shop/t/11/assets/lazysizes.min.js?v=155223123402716617051647849393"></script>
+    <script defer src="/cdn/shop/t/11/assets/layout-scripts.js?v=81574266922274938051691121534"></script>
+    <script defer src="/cdn/shop/t/11/assets/helpers.js?v=27854430373278452491688024718"></script>
+    <script defer src="/cdn/shop/t/11/assets/splide.min.js?v=15323724465567850331688024725"></script>
+    <script defer src="/cdn/shop/t/11/assets/mediabox.min.js?v=150177701041689025671688024719"></script>
 
     <style>
         .splide:not(.is-initialized) {
@@ -49,7 +49,7 @@
     <link rel="stylesheet" href="/cdn/shop/t/11/assets/tailwind.css?v=148318756378458697681694159162">
 
 
-    <script defer="">
+    <script defer>
         const Shop = {
             id: "56298733706",
             assetUrl: "/cdn/shop/t/11/assets/a?100299".match(/^.*\//g)[0],
@@ -59,7 +59,7 @@
         };
     </script>
 
-    <script defer="">window.performance && window.performance.mark && window.performance.mark('shopify.content_for_header.start');</script>
+    <script defer>window.performance && window.performance.mark && window.performance.mark('shopify.content_for_header.start');</script>
     <meta name="google-site-verification" content="8NrZlTq5Lc38Dcf3TXtYAYwsRtuJ4a7uquA03qTXb0s">
     <meta id="shopify-digital-wallet" name="shopify-digital-wallet" content="/56298733706/digital_wallets/dialog">
     <meta name="shopify-checkout-api-token" content="ce4ca916137cfac3e3affac0f0855d91">
@@ -68,48 +68,8 @@
     <link rel="alternate" hreflang="x-default" href="https:/">
     <link rel="alternate" hreflang="en-CA" href="https:/">
     <link rel="alternate" hreflang="fr-CA" href="https:/fr">
-    <script is="delay-script" phase="interactive">
-        (function () {
-            var scripts = ["https://cdn.shopify.com/shopifycloud/checkout-web/assets/runtime.latest.en.b61b3f9dfdcc0a077f11.js", "https://cdn.shopify.com/shopifycloud/checkout-web/assets/809.latest.en.22b066f200008aec130a.js", "https://cdn.shopify.com/shopifycloud/checkout-web/assets/Information.latest.en.54dfe5d34985e1982b50.js", "https://cdn.shopify.com/shopifycloud/checkout-web/assets/23.latest.en.a7ee3a2bd3fc2ad170b2.js", "https://cdn.shopify.com/shopifycloud/checkout-web/assets/733.latest.en.22cb4eafe0499ff4281e.js", "https://cdn.shopify.com/shopifycloud/checkout-web/assets/39.latest.en.99827a586f76e932dc2d.js", "https://cdn.shopify.com/shopifycloud/checkout-web/assets/app.latest.en.f936660d1941d75ef257.js"];
-            var styles = ["https://cdn.shopify.com/shopifycloud/checkout-web/assets/23.latest.en.3cbccf84d73cde1fb510.css", "https://cdn.shopify.com/shopifycloud/checkout-web/assets/app.latest.en.9d6b9f970cd086c012b2.css", "https://cdn.shopify.com/shopifycloud/checkout-web/assets/739.latest.en.3ad1658c0d5df64841ff.css"];
 
-            function prefetch(url, as, callback) {
-                var link = document.createElement('link');
-                if (link.relList.supports('prefetch')) {
-                    link.rel = 'prefetch';
-                    link.fetchPriority = 'low';
-                    link.as = as;
-                    link.href = url;
-                    link.onload = link.onerror = callback;
-                    document.head.appendChild(link);
-                } else {
-                    var xhr = new XMLHttpRequest();
-                    xhr.open('GET', url, true);
-                    xhr.onloadend = callback;
-                    xhr.send();
-                }
-            }
-
-            function prefetchAssets() {
-                var resources = [].concat(
-                    scripts.map(function (url) {
-                        return [url, 'script'];
-                    }),
-                    styles.map(function (url) {
-                        return [url, 'style'];
-                    })
-                );
-                var index = 0;
-                (function next() {
-                    var res = resources[index++];
-                    if (res) prefetch(res[0], res[1], next);
-                })();
-            }
-
-            addEventListener('load', prefetchAssets);
-        })();
-    </script>
-    <script id="apple-pay-shop-capabilities" type="application/json" defer="">{
+    <script id="apple-pay-shop-capabilities" type="application/json" defer>{
         "shopId": 56298733706,
         "countryCode": "CA",
         "currencyCode": "CAD",
@@ -145,7 +105,7 @@
         "shopifyPaymentsEnabled": true,
         "supportsSubscriptions": true
     }</script>
-    <script id="shopify-features" type="application/json" defer="">{
+    <script id="shopify-features" type="application/json" defer>{
         "accessToken": "ce4ca916137cfac3e3affac0f0855d91",
         "betas": [
             "rich-media-storefront-analytics"
@@ -160,7 +120,7 @@
         "optimusHidden": false,
         "betterDynamicCheckoutRecommendationVariant": "control"
     }</script>
-    <script defer="">var Shopify = Shopify || {};
+    <script defer>var Shopify = Shopify || {};
     Shopify.shop = "emma-sleep-ca.myshopify.com";
     Shopify.locale = "en";
     Shopify.currency = {"active": "CAD", "rate": "1.0"};
@@ -171,10 +131,10 @@
     Shopify.cdnHost = "emma-sleep.ca/cdn";
     Shopify.routes = Shopify.routes || {};
     Shopify.routes.root = "/";</script>
-    <script type="module" defer="">!function (o) {
+    <script type="module" defer>!function (o) {
         (o.Shopify = o.Shopify || {}).modules = !0
     }(window);</script>
-    <script defer="">!function (o) {
+    <script defer>!function (o) {
         function n() {
             var o = [];
 
@@ -188,7 +148,7 @@
         var t = o.Shopify = o.Shopify || {};
         t.loadFeatures = n(), t.autoloadFeatures = n()
     }(window);</script>
-    <script defer="">window.ShopifyPay = window.ShopifyPay || {};
+    <script defer>window.ShopifyPay = window.ShopifyPay || {};
     window.ShopifyPay.apiHost = "shop.app\/pay";</script>
     <script is="delay-script" phase="interactive">
         window.Shopify = window.Shopify || {};
@@ -224,7 +184,7 @@
             window.addEventListener('load', asyncLoad, false);
         }
     })();</script>
-    <script id="__st" defer="">var __st = {
+    <script id="__st" defer>var __st = {
         "a": 56298733706,
         "offset": -14400,
         "reqid": "01611a06-67aa-44ee-8824-0fb49254a2b4",
@@ -233,8 +193,8 @@
         "u": "d9318c871d97",
         "p": "home"
     };</script>
-    <script defer="">window.ShopifyPaypalV4VisibilityTracking = true;</script>
-    <script defer="">!function (o) {
+    <script defer>window.ShopifyPaypalV4VisibilityTracking = true;</script>
+    <script defer>!function (o) {
         o.addEventListener("DOMContentLoaded", function () {
             window.Shopify = window.Shopify || {}, window.Shopify.recaptchaV3 = window.Shopify.recaptchaV3 || {siteKey: "6LcCR2cUAAAAANS1Gpq_mDIJ2pQuJphsSQaUEuc9"};
             var t = ['form[action*="/contact"] input[name="form_type"][value="contact"]', 'form[action*="/comments"] input[name="form_type"][value="new_comment"]', 'form[action*="/account"] input[name="form_type"][value="customer_login"]', 'form[action*="/account"] input[name="form_type"][value="recover_customer_password"]', 'form[action*="/account"] input[name="form_type"][value="create_customer"]', 'form[action*="/contact"] input[name="form_type"][value="customer"]'].join(",");
@@ -262,35 +222,8 @@
             crossorigin="anonymous"
             url="/cdn/shopifycloud/shopify/assets/storefront/features-1c0b396bd4d054b94abae1eb6a1bd6ba47beb35525c57a217c77a862ff06d83f.js"></script>
     <!-- placeholder b756d449a7a8169e -->
-    <script defer="">window.performance && window.performance.mark && window.performance.mark('shopify.content_for_header.end');</script>
+    <script defer>window.performance && window.performance.mark && window.performance.mark('shopify.content_for_header.end');</script>
 
-    <script defer="">
-        const blacklistUrls = [
-            "klaviyo.com",
-            "appsolve.io",
-            /(shopifycloud)(.*?)(.js|.css)/,
-            "yotpo.com",
-            "logico3c.com",
-            "wchat.eu.freshchat.com",
-            "s.pinimg.com",
-            "shop.pe",
-            "dwin1.com",
-            "signifyd.com",
-            "attn.tv",
-            "shareasale.com",
-            "cloudfront.net/awin-shopify-integration-code.js",
-            "optimize.js",
-            "connect.facebook.net/signals",
-            "connect.facebook.net/en_US/fbevents.js",
-            "trekkie.storefront",
-            "web-pixel-shopify-custom-pixel",
-            "b27ebbe9cwc6551374p82226fa4m8497296fm.js",
-            "/fonts/assistant",
-        ];
-        const whitelistUrls = [
-            "preview_bar_injector",
-        ];
-    </script>
     <!-- Basic page needs ================================================== -->
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
@@ -339,7 +272,7 @@
     <!--International SEO: hreflang tags-->
 
 
-    <script defer="">window.performance && window.performance.mark && window.performance.mark('shopify.content_for_header.start');</script>
+    <script defer>window.performance && window.performance.mark && window.performance.mark('shopify.content_for_header.start');</script>
     <meta name="google-site-verification" content="8NrZlTq5Lc38Dcf3TXtYAYwsRtuJ4a7uquA03qTXb0s">
     <meta id="shopify-digital-wallet" name="shopify-digital-wallet" content="/56298733706/digital_wallets/dialog">
     <meta name="shopify-checkout-api-token" content="ce4ca916137cfac3e3affac0f0855d91">
@@ -389,7 +322,7 @@
             addEventListener('load', prefetchAssets);
         })();
     </script>
-    <script id="apple-pay-shop-capabilities" type="application/json" defer="">{
+    <script id="apple-pay-shop-capabilities" type="application/json" defer>{
         "shopId": 56298733706,
         "countryCode": "CA",
         "currencyCode": "CAD",
@@ -425,7 +358,7 @@
         "shopifyPaymentsEnabled": true,
         "supportsSubscriptions": true
     }</script>
-    <script id="shopify-features" type="application/json" defer="">{
+    <script id="shopify-features" type="application/json" defer>{
         "accessToken": "ce4ca916137cfac3e3affac0f0855d91",
         "betas": [
             "rich-media-storefront-analytics"
@@ -440,7 +373,7 @@
         "optimusHidden": false,
         "betterDynamicCheckoutRecommendationVariant": "control"
     }</script>
-    <script defer="">var Shopify = Shopify || {};
+    <script defer>var Shopify = Shopify || {};
     Shopify.shop = "emma-sleep-ca.myshopify.com";
     Shopify.locale = "en";
     Shopify.currency = {"active": "CAD", "rate": "1.0"};
@@ -451,10 +384,10 @@
     Shopify.cdnHost = "emma-sleep.ca/cdn";
     Shopify.routes = Shopify.routes || {};
     Shopify.routes.root = "/";</script>
-    <script type="module" defer="">!function (o) {
+    <script type="module" defer>!function (o) {
         (o.Shopify = o.Shopify || {}).modules = !0
     }(window);</script>
-    <script defer="">!function (o) {
+    <script defer>!function (o) {
         function n() {
             var o = [];
 
@@ -468,9 +401,9 @@
         var t = o.Shopify = o.Shopify || {};
         t.loadFeatures = n(), t.autoloadFeatures = n()
     }(window);</script>
-    <script defer="">window.ShopifyPay = window.ShopifyPay || {};
+    <script defer>window.ShopifyPay = window.ShopifyPay || {};
     window.ShopifyPay.apiHost = "shop.app\/pay";</script>
-    <script defer="">
+    <script defer>
         window.Shopify = window.Shopify || {};
         if (!window.Shopify.featureAssets) window.Shopify.featureAssets = {};
         window.Shopify.featureAssets['shop-js'] = {
@@ -486,26 +419,8 @@
             "payment-terms": ["modules/client.payment-terms_8c0535c9.en.esm.js", "modules/chunk.common_b40c70c3.esm.js"]
         };
     </script>
-    <script is="delay-script" phase="interactive">
-        (function () {
-            function asyncLoad() {
-                var urls = ["https:\/\/cdn.weglot.com\/weglot_script_tag.js?shop=emma-sleep-ca.myshopify.com", "https:\/\/cdn.avmws.com\/1021029\/?shop=emma-sleep-ca.myshopify.com", "\/\/cdn.shopify.com\/proxy\/971447fa0ca00471c4a74bf546f8fb248d71816fc5fd20c73369ed0354fa0437\/bingshoppingtool-t2app-prod.trafficmanager.net\/uet\/tracking_script?shop=emma-sleep-ca.myshopify.com\u0026sp-cache-control=cHVibGljLCBtYXgtYWdlPTkwMA", "\/\/staticw2.yotpo.com\/hEc3IC0lCXuQ15phwUS54IFWUkW2L7LAcNLTHkt6\/widget.js?shop=emma-sleep-ca.myshopify.com", "https:\/\/cdn-scripts.signifyd.com\/shopify\/script-tag.js?shop=emma-sleep-ca.myshopify.com", "https:\/\/cdn.attn.tv\/emmasleep\/dtag.js?shop=emma-sleep-ca.myshopify.com", "https:\/\/www.dwin1.com\/41984.js?shop=emma-sleep-ca.myshopify.com", "https:\/\/static.shareasale.com\/json\/shopify\/deduplication.js?shop=emma-sleep-ca.myshopify.com", "https:\/\/cdn1.judge.me\/assets\/installed.js?shop=emma-sleep-ca.myshopify.com", "\/\/productreviews.shopifycdn.com\/embed\/loader.js?shop=emma-sleep-ca.myshopify.com", "https:\/\/my.parcelpanel.com\/assets\/admin\/custom\/js\/checkout.js?v=1.0.1\u0026shop=emma-sleep-ca.myshopify.com"];
-                for (var i = 0; i < urls.length; i++) {
-                    var s = document.createElement('script');
-                    s.type = 'text/javascript';
-                    s.async = true;
-                    s.src = urls[i];
-                    var x = document.getElementsByTagName('script')[0];
-                    x.parentNode.insertBefore(s, x);
-                }
-            };
-            if (window.attachEvent) {
-                window.attachEvent('onload', asyncLoad);
-            } else {
-                window.addEventListener('load', asyncLoad, false);
-            }
-        })();</script>
-    <script id="__st" defer="">var __st = {
+
+    <script id="__st" defer>var __st = {
         "a": 56298733706,
         "offset": -14400,
         "reqid": "01611a06-67aa-44ee-8824-0fb49254a2b4",
@@ -514,8 +429,8 @@
         "u": "d9318c871d97",
         "p": "home"
     };</script>
-    <script defer="">window.ShopifyPaypalV4VisibilityTracking = true;</script>
-    <script defer="">!function (o) {
+    <script defer>window.ShopifyPaypalV4VisibilityTracking = true;</script>
+    <script defer>!function (o) {
         o.addEventListener("DOMContentLoaded", function () {
             window.Shopify = window.Shopify || {}, window.Shopify.recaptchaV3 = window.Shopify.recaptchaV3 || {siteKey: "6LcCR2cUAAAAANS1Gpq_mDIJ2pQuJphsSQaUEuc9"};
             var t = ['form[action*="/contact"] input[name="form_type"][value="contact"]', 'form[action*="/comments"] input[name="form_type"][value="new_comment"]', 'form[action*="/account"] input[name="form_type"][value="customer_login"]', 'form[action*="/account"] input[name="form_type"][value="recover_customer_password"]', 'form[action*="/account"] input[name="form_type"][value="create_customer"]', 'form[action*="/contact"] input[name="form_type"][value="customer"]'].join(",");
@@ -557,7 +472,7 @@
         }
     }
     </style>
-    <script defer="">window.performance && window.performance.mark && window.performance.mark('shopify.content_for_header.end');</script>
+    <script defer>window.performance && window.performance.mark && window.performance.mark('shopify.content_for_header.end');</script>
     <link rel="alternate" hreflang="en" href="https:/">
 
     <link rel="alternate" hreflang="fr" href="https://qc.emma-sleep.ca/">
@@ -572,7 +487,7 @@
 
     <!-- BEGIN app block: shopify://apps/klaviyo-email-marketing-sms/blocks/klaviyo-onsite-embed/2632fe16-c075-4321-a88b-50b567f42507 -->
 
-    <script defer="">!function () {
+    <script defer>!function () {
         if (!window.klaviyo) {
             window._klOnsite = window._klOnsite || [];
             try {
@@ -604,13 +519,13 @@
 
     <!-- END app app block -->
     <!-- BEGIN app block: shopify://apps/vitals-all-in-one-marketing/blocks/app-embed/aeb48102-2a5a-4f39-bdbd-d8d49f4e20b8 -->
-    <script data-ver="16" id="vtlsAebData" defer="">window.vtlsLiquidData = {};
+    <script data-ver="16" id="vtlsAebData" defer>window.vtlsLiquidData = {};
     window.vtlsLiquidData.cacheKeys = [1642067320, 0, 0, 1668528602, 1644587031, 0, 0];</script>
     <script is="delay-script" phase="interactive"
             url="https://appsolve.io/sf/v1/assets/js/main/emma-sleep-ca.myshopify.com/1695911603/bundle.js"></script>
     <!-- END app app block -->
     <link href="https://monorail-edge.shopifysvc.com" rel="dns-prefetch">
-    <script defer="">(function () {
+    <script defer>(function () {
         if ("sendBeacon" in navigator && "performance" in window) {
             var session_token = document.cookie.match(/_shopify_s=([^;]*)/);
 
@@ -753,14 +668,14 @@
     }, function pageEvents(webPixelsManagerAPI) {
         webPixelsManagerAPI.publish("page_viewed");
     }, "https:/cdn", "browser", "0.0.368", "01fbfa7bwf128b223pbb0f9335m6d9cc028", ["web_pixels_async_pixel_refactor", "web_pixels_visitor_api"]);</script>
-    <script defer="">window.ShopifyAnalytics = window.ShopifyAnalytics || {};
+    <script defer>window.ShopifyAnalytics = window.ShopifyAnalytics || {};
     window.ShopifyAnalytics.meta = window.ShopifyAnalytics.meta || {};
     window.ShopifyAnalytics.meta.currency = 'CAD';
     var meta = {"page": {"pageType": "home"}};
     for (var attr in meta) {
         window.ShopifyAnalytics.meta[attr] = meta[attr];
     }</script>
-    <script defer="">window.ShopifyAnalytics.merchantGoogleAnalytics = function () {
+    <script defer>window.ShopifyAnalytics.merchantGoogleAnalytics = function () {
 
     };
     </script>
@@ -1203,7 +1118,7 @@
             </div>
         </div>
 
-        <script defer="" src="/cdn/shop/t/11/assets/announcement-bar.js?v=1762758780575705691689848814"></script>
+        <script defer src="/cdn/shop/t/11/assets/announcement-bar.js?v=1762758780575705691689848814"></script>
     </div>
     <div id="shopify-section-sections--15913832546442__header"
          class="shopify-section shopify-section-group-header-group site-header-wrapper">
@@ -2199,7 +2114,7 @@
 
                 </section>
 
-                <script defer="" src="/cdn/shop/t/11/assets/hero-split.js?v=108917295628996507591688024715"></script>
+                <script defer src="/cdn/shop/t/11/assets/hero-split.js?v=108917295628996507591688024715"></script>
 
             </div>
         </div>
@@ -2533,7 +2448,7 @@
             </div>
         </section>
 
-        <script defer="" src="/cdn/shop/t/11/assets/product-catalog.js?v=83088898987518290501688024721"></script>
+        <script defer src="/cdn/shop/t/11/assets/product-catalog.js?v=83088898987518290501688024721"></script>
     </div>
 
     <div id="shopify-section-template--15787492933770__winning-awards" class="shopify-section">
@@ -4013,7 +3928,7 @@
             </div>
         </section>
 
-        <script defer="" src="/cdn/shop/t/11/assets/featured-products.js?v=108917295628996507591688024715"></script>
+        <script defer src="/cdn/shop/t/11/assets/featured-products.js?v=108917295628996507591688024715"></script>
 
 
     </div>
@@ -4684,7 +4599,7 @@
             </div>
         </section>
 
-        <script defer="" src="/cdn/shop/t/11/assets/customer-sentiment.js?v=180712585475725109751688024714"></script>
+        <script defer src="/cdn/shop/t/11/assets/customer-sentiment.js?v=180712585475725109751688024714"></script>
 
 
     </div>
@@ -5019,7 +4934,7 @@
             </div>
         </section>
 
-        <script defer="" src="/cdn/shop/t/11/assets/featured-faqs.js?v=67386142376282230451688024715"></script>
+        <script defer src="/cdn/shop/t/11/assets/featured-faqs.js?v=67386142376282230451688024715"></script>
 
 
     </div>
@@ -5097,7 +5012,7 @@
                     </div>
                 </div>
 
-                <script defer="">
+                <script defer>
                     (function () {
                         const checkbox = document.querySelector('#shopify-section-footer input[name="customer[accepts_marketing]"]'),
                             submit = document.querySelector('#shopify-section-footer [type="submit"]');
@@ -5289,16 +5204,16 @@
     </li>
 </ul>
 
-<script defer="" src="/cdn/shop/t/11/assets/jquery.ba-throttle-debounce.js?v=103250179697527314711688024714"></script>
-<script defer="" src="/cdn/shop/t/11/assets/jquery.beefup.min.js?v=82952605651928686161688024714"></script>
-<script defer="" src="/cdn/shop/t/11/assets/jquery.modal.min.js?v=15875380166552750701688024716"></script>
-<script defer="" src="/cdn/shop/t/11/assets/jquery.fancybox.min.js?v=102984942719613846721688024715"></script>
-<script defer="" src="/cdn/shop/t/11/assets/select2.min.js?v=49960443923896795481688024721"></script>
-<script defer="" src="/cdn/shop/t/11/assets/toastr.min.js?v=32063384496253430001688024728"></script>
-<script defer="" src="/cdn/shop/t/11/assets/swiper-bundle.min.js?v=30986975797822707101688024726"></script>
-<script defer="" src="/cdn/shop/t/11/assets/popper.min.js?v=106254159189482773611688024720"></script>
+<script defer src="/cdn/shop/t/11/assets/jquery.ba-throttle-debounce.js?v=103250179697527314711688024714"></script>
+<script defer src="/cdn/shop/t/11/assets/jquery.beefup.min.js?v=82952605651928686161688024714"></script>
+<script defer src="/cdn/shop/t/11/assets/jquery.modal.min.js?v=15875380166552750701688024716"></script>
+<script defer src="/cdn/shop/t/11/assets/jquery.fancybox.min.js?v=102984942719613846721688024715"></script>
+<script defer src="/cdn/shop/t/11/assets/select2.min.js?v=49960443923896795481688024721"></script>
+<script defer src="/cdn/shop/t/11/assets/toastr.min.js?v=32063384496253430001688024728"></script>
+<script defer src="/cdn/shop/t/11/assets/swiper-bundle.min.js?v=30986975797822707101688024726"></script>
+<script defer src="/cdn/shop/t/11/assets/popper.min.js?v=106254159189482773611688024720"></script>
 
-<script defer="" src="/cdn/shop/t/11/assets/tippy-bundle.umd.min.js?v=106717848408361717631688024727"></script>
+<script defer src="/cdn/shop/t/11/assets/tippy-bundle.umd.min.js?v=106717848408361717631688024727"></script>
 
 <link rel="stylesheet" href="/cdn/shop/t/11/assets/jquery.modal.min.css?v=64857397979575196151688024716">
 <link rel="stylesheet" href="/cdn/shop/t/11/assets/jquery.fancybox.css?v=159808164371632363711688024715">
@@ -5307,9 +5222,6 @@
 <link rel="stylesheet" href="/cdn/shop/t/11/assets/toastr.min.css?v=68908210151308294901688024727">
 <link rel="stylesheet" href="/cdn/shop/t/11/assets/swiper-bundle.min.css?v=183092761113033764571688024725">
 <link rel="stylesheet" href="/cdn/shop/t/11/assets/mediabox.min.css?v=178153156364416133851688024719">
-
-<script defer="" src="/cdn/shop/t/11/assets/modernizr.min.js?v=21391054748206432451647849408"></script>
-
 
 <script is="delay-script" phase="interactive" url="https://www.googleoptimize.com/optimize.js?id=OPT-KNFWBCL"></script>
 <script>
@@ -5454,10 +5366,10 @@
 
 <link rel="stylesheet" href="/cdn/shop/t/11/assets/new-splide.css?v=100926187677075264311687357027">
 
-<script defer="" src="/cdn/shop/t/11/assets/variant-selects.js?v=142778093263602674021694159162"></script>
+<script defer src="/cdn/shop/t/11/assets/variant-selects.js?v=142778093263602674021694159162"></script>
 
-<script defer="" src="/cdn/shop/t/11/assets/quantity-adjuster.js?v=63438535502664631441678797214"></script>
-<script defer="" src="/cdn/shop/t/11/assets/variant-selector.js?v=148380756409455986861666688389"></script>
+<script defer src="/cdn/shop/t/11/assets/quantity-adjuster.js?v=63438535502664631441678797214"></script>
+<script defer src="/cdn/shop/t/11/assets/variant-selector.js?v=148380756409455986861666688389"></script>
 
 <script>
     window.routes = {
@@ -5482,10 +5394,10 @@
 <link rel="stylesheet" href="/cdn/shop/t/11/assets/cart-drawer.css?v=111562508632001881001694591557">
 <link rel="stylesheet" href="/cdn/shop/t/11/assets/component-cart.css?v=61086454150987525971666688394">
 
-<script defer="" src="/cdn/shop/t/11/assets/cart.js?v=102393167721669557241694159418"></script>
-<script defer="" src="/cdn/shop/t/11/assets/cart-drawer.js?v=144714812610118039071678877879"></script>
-<script defer="" src="/cdn/shop/t/11/assets/cart-item.js?v=18674064785282689951694591558"></script>
-<script defer="" src="/cdn/shop/t/11/assets/cart-upsell.js?v=179965737164722341261684224838"></script>
+<script defer src="/cdn/shop/t/11/assets/cart.js?v=102393167721669557241694159418"></script>
+<script defer src="/cdn/shop/t/11/assets/cart-drawer.js?v=144714812610118039071678877879"></script>
+<script defer src="/cdn/shop/t/11/assets/cart-item.js?v=18674064785282689951694591558"></script>
+<script defer src="/cdn/shop/t/11/assets/cart-upsell.js?v=179965737164722341261684224838"></script>
 
 <cart-drawer id="CartDrawer" class="">
     <div id="CartDrawer-Overlay" class="cart-drawer__overlay"></div>
@@ -5639,7 +5551,7 @@
                                            class="product__name paragraph-14 font-semibold">
 
                                             <span>Ellamart Hybrid Comfort</span>
-                                            <script defer="">
+                                            <script defer>
 
                                             </script>
 
@@ -6317,7 +6229,7 @@
     </div>
 </div>
 
-<script defer="">
+<script defer>
     function closePopup() {
         $.modal.close();
     }
@@ -6338,8 +6250,8 @@
     </div>
 </cookie-consent-bar>
 
-<script src="https://static.klaviyo.com/onsite/js/klaviyo.js?company_id=RZNSbn" defer></script>
+<script is="delay-script" phase="interactive" url="https://static.klaviyo.com/onsite/js/klaviyo.js?company_id=RZNSbn"></script>
 
-<script defer src="https://wchat.eu.freshchat.com/js/widget.js?t=1696081325371"></script>
+<script is="delay-script" phase="interactive" url="https://wchat.eu.freshchat.com/js/widget.js?t=1696081325371"></script>
 </body>
 </html>

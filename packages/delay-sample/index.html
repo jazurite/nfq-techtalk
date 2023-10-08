@@ -16,7 +16,7 @@
     <script defer src="/cdn/shop/t/11/assets/layout-scripts.js?v=81574266922274938051691121534"></script>
     <script defer src="/cdn/shop/t/11/assets/helpers.js?v=27854430373278452491688024718"></script>
     <script is="delay-script" url="/cdn/shop/t/11/assets/splide.min.js?v=15323724465567850331688024725"></script>
-    <script is="delay-script" url="/cdn/shop/t/11/assets/mediabox.min.js?v=150177701041689025671688024719"></script>
+    <script defer src="/cdn/shop/t/11/assets/mediabox.min.js?v=150177701041689025671688024719"></script>
 
     <style>
         .splide:not(.is-initialized) {
@@ -28,12 +28,12 @@
         }
     </style>
     <!-- CSS ================================================== -->
-    <link is="delay-stylesheet" href="/cdn/shop/t/11/assets/timber.css?v=159571336311555510971684824513">
-    <link is="delay-stylesheet" href="/cdn/shop/t/11/assets/theme.css?v=164442859797059635561690273880">
+    <link rel="stylesheet" href="/cdn/shop/t/11/assets/timber.css?v=159571336311555510971684824513">
+    <link rel="stylesheet" href="/cdn/shop/t/11/assets/theme.css?v=164442859797059635561690273880">
     <!-- CUSTOM CSS ================================================== -->
-    <link is="delay-stylesheet" href="/cdn/shop/t/11/assets/custom-theme.css?v=20891048303685117561686041529">
-    <link is="delay-stylesheet" href="/cdn/shop/t/11/assets/custom.css?v=177743090204326963411670913012">
-    <link is="delay-stylesheet" href="/cdn/shop/t/11/assets/custom-theme-3.css?v=133590341990656705491684824515">
+    <link rel="stylesheet" href="/cdn/shop/t/11/assets/custom-theme.css?v=20891048303685117561686041529">
+    <link rel="stylesheet" href="/cdn/shop/t/11/assets/custom.css?v=177743090204326963411670913012">
+    <link rel="stylesheet" href="/cdn/shop/t/11/assets/custom-theme-3.css?v=133590341990656705491684824515">
 
     <link rel="stylesheet" href="/cdn/shop/t/11/assets/base.css?v=48100596806574359551695713945">
     <link rel="stylesheet" href="/cdn/shop/t/11/assets/legacy.css?v=177997722352149800751687251080">
@@ -44,7 +44,7 @@
     <link rel="stylesheet" href="/cdn/shop/t/11/assets/fonts.css?v=58483565803451788371695806730">
 
     <link rel="stylesheet" href="/cdn/shop/t/11/assets/new-heading.css?v=9457285026445821181687357026">
-    <link is="delay-stylesheet" href="/cdn/shop/t/11/assets/tailwind.css?v=148318756378458697681694159162">
+    <link rel="stylesheet" href="/cdn/shop/t/11/assets/tailwind.css?v=148318756378458697681694159162">
 
     <script defer>
         const Shop = {
@@ -135,20 +135,7 @@
     <script type="module" defer>!function (o) {
         (o.Shopify = o.Shopify || {}).modules = !0
     }(window);</script>
-    <script defer>!function (o) {
-        function n() {
-            var o = [];
 
-            function n() {
-                o.push(Array.prototype.slice.apply(arguments))
-            }
-
-            return n.q = o, n
-        }
-
-        var t = o.Shopify = o.Shopify || {};
-        t.loadFeatures = n(), t.autoloadFeatures = n()
-    }(window);</script>
     <script defer>window.ShopifyPay = window.ShopifyPay || {};
     window.ShopifyPay.apiHost = "shop.app\/pay";</script>
     <script is="delay-script" phase="interactive">
@@ -413,24 +400,7 @@
         "p": "home"
     };</script>
     <script defer>window.ShopifyPaypalV4VisibilityTracking = true;</script>
-    <script defer>!function (o) {
-        o.addEventListener("DOMContentLoaded", function () {
-            window.Shopify = window.Shopify || {}, window.Shopify.recaptchaV3 = window.Shopify.recaptchaV3 || {siteKey: "6LcCR2cUAAAAANS1Gpq_mDIJ2pQuJphsSQaUEuc9"};
-            var t = ['form[action*="/contact"] input[name="form_type"][value="contact"]', 'form[action*="/comments"] input[name="form_type"][value="new_comment"]', 'form[action*="/account"] input[name="form_type"][value="customer_login"]', 'form[action*="/account"] input[name="form_type"][value="recover_customer_password"]', 'form[action*="/account"] input[name="form_type"][value="create_customer"]', 'form[action*="/contact"] input[name="form_type"][value="customer"]'].join(",");
 
-            function n(e) {
-                e = e.target;
-                null == e || null != (e = function e(t, n) {
-                    if (null == t.parentElement) return null;
-                    if ("FORM" != t.parentElement.tagName) return e(t.parentElement, n);
-                    for (var o = t.parentElement.action, r = 0; r < n.length; r++) if (-1 !== o.indexOf(n[r])) return t.parentElement;
-                    return null
-                }(e, ["/contact", "/comments", "/account"])) && null != e.querySelector(t) && ((e = o.createElement("script")).setAttribute("src", "https://cdn.shopify.com/shopifycloud/storefront-recaptcha-v3/v0.6/index.js"), o.body.appendChild(e), o.removeEventListener("focus", n, !0), o.removeEventListener("change", n, !0), o.removeEventListener("click", n, !0))
-            }
-
-            o.addEventListener("click", n, !0), o.addEventListener("change", n, !0), o.addEventListener("focus", n, !0)
-        })
-    }(document);</script>
     <script integrity="sha256-h4dvokWvGcvRSqiG7VnGqoonxF0k3NeoHPLSMjUGIz4="
             data-source-attribution="shopify.loadfeatures" is="delay-script" phase="interactive"
             url="/cdn/shopifycloud/shopify/assets/storefront/load_feature-87876fa245af19cbd14aa886ed59c6aa8a27c45d24dcd7a81cf2d2323506233e.js"
@@ -4110,7 +4080,8 @@
             </div>
         </section>
 
-        <script defer src="/cdn/shop/t/11/assets/customer-sentiment.js?v=180712585475725109751688024714"></script>
+        <script is="delay-script" phase="interactive"
+                url="/cdn/shop/t/11/assets/customer-sentiment.js?v=180712585475725109751688024714"></script>
 
 
     </div>
@@ -4279,7 +4250,7 @@
     </div>
     <div id="shopify-section-template--15787492933770__media-with-text-banners"
          class="shopify-section media-with-text-banners-wrapper">
-        <link rel="stylesheet"
+        <link is="delay-stylesheet"
               href="/cdn/shop/t/11/assets/media-with-text-banners.css?v=138713714491422733301687251082">
 
         <div id="mediaWithTextBannersSection" class="banners-container page-boundary">
